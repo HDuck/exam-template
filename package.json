@@ -1,0 +1,17 @@
+{
+  "name": "exam-template",
+  "version": "1.0.0",
+  "description": "Final template for HTML5&CSS3 course",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "async"
+  ],
+  "author": "HDucky",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.3"
+  }
+}
