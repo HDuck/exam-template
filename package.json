@@ -12,6 +12,15 @@
   "author": "HDucky",
   "license": "ISC",
   "devDependencies": {
-    "grunt": "^1.0.3"
+    "grunt": "^1.0.3",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-watch": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/HDuck/exam-template.git"
   }
 }
