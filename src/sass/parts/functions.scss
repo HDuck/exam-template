@@ -1,0 +1,17 @@
+@function bgc($key) {
+  @if map-has-key($bg-color, $key) {
+    @return map-get($bg-color, $key);
+  }
+
+  @warn "Unknown `#{$key}` in $bg-colors.";
+  @return null;
+}
+
+@function txtc($key) {
+  @if map-has-key($color, $key) {
+    @return map-get($color, $key);
+  }
+
+  @warn "Unknown `#{$key}` in $color.";
+  @return null;
+}

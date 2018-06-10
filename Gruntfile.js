@@ -64,6 +64,29 @@ module.exports = function(grunt) {
         src: 'build'
       }      
     },
+    
+    sass: {
+      
+      src: {
+        
+        options: {
+          style: 'expanded'
+        },
+        
+        files: {
+          'src/css/style.css': 'src/sass/main.sass'
+        }  
+      }
+    },
+    
+    watch: {
+      
+      sass: {
+
+        files: ['src/sass/*.sass', 'src/sass/parts/*.sass', 'src/sass/parts/variables.scss'],
+        tasks: 'sass'
+      }
+    },
 /*
     watch: {
       
