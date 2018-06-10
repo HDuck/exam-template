@@ -3,7 +3,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
   
-    concat: {
+/*    concat: {
       
       sass: {
         src: ['src/sass/parts/variables.sass', 'src/sass/parts/mixins.sass', 'src/sass/parts/header.sass', 'src/sass/parts/content.sass', 'src/sass/parts/footer.sass'],
@@ -40,7 +40,31 @@ module.exports = function(grunt) {
         }
       }
     },
+    */
+    validation: {
+      
+      html: {
+        
+        options: {
+          doctype: 'HTML5',
+          charset: 'utf-8'
+        },
+        
+        files: {
+          
+          src: 'src/index.html'
+        }
+      }
+    },
     
+    clean: {
+      
+      build: {
+        
+        src: 'build'
+      }      
+    },
+/*
     watch: {
       
       sass: {
@@ -52,13 +76,15 @@ module.exports = function(grunt) {
         files: 'src/js/parts/*.js',
         tasks: 'concat:js'
       }
-    }
+    }*/
   });
 
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-concat');
+  grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-w3c-html-validation');
 }
