@@ -1,11 +1,13 @@
-.button {
-  border-radius: 3px;
-  background-color: rgb(17, 17, 17);
-  box-shadow: inset 0px 3px 0px 0px rgba(115, 99, 87, 0.004);
+.Lorem_ipsum_dolor_sit_amet {
+  font-size: 20px;
+  font-family: "Raleway";
+  color: rgb(85, 85, 85);
+  line-height: 1.2;
+  text-align: left;
   position: absolute;
-  left: 876px;
-  top: 589px;
-  width: 170px;
-  height: 53px;
-  z-index: 419;
+  left: 403.87px;
+  top: 5573.198px;
+  width: 257px;
+  height: 19px;
+  z-index: 312;
 }

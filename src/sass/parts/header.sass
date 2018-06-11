@@ -2,13 +2,13 @@
   width: $page-w
   margin: 0 auto
   padding: 40px 0 0 0
-  background-color: bgc(head)
+  background: bgc(head) url(../img/header-slide-photo1.png) no-repeat center
 
   &-nav
     display: flex
     justify-content: center
     align-items: flex-start
-    width: $h-menu-w
+    width: 100%
     margin: 0 auto
 
   &-carousel
@@ -21,6 +21,9 @@
 .nav
 
   &-menu
+    display: flex
+    justify-content: flex-start
+    align-items: flex-start
     margin: 22px 0 0 219px
     padding-left: 0
 
@@ -35,6 +38,7 @@
     &__link
       text-transform: capitalize
       text-decoration: none
+      color: txtc(h-text)
 
   &-cart, &-search
     display: inline-block
@@ -82,12 +86,14 @@
     &__subtitle, &__title
       width: $h-slide-txt-w
       margin: 0 0 14px 0
+      color: txtc(h-text)
 
     &__subtitle
       display: inline-block
 
     &__text
       width: ($h-slide-txt-w - 27px)
+      color: txtc(h-text)
 
     &__btn
       padding: 21px 39px 21px 37px
@@ -98,7 +104,8 @@
     justify-content: center
     align-items: flex-end
     width: 100%
-    margin: 329px 0 42px
+    margin: #{$h-slide-nav-marg}
+    padding-left: 0
 
     &__item
       margin-left: 10px
@@ -112,4 +119,4 @@
       width: 11px
       height: 11px
       text-decoration: none
-      background: url(../img/carousel-link.png) no-repeat center    
+      background: url(../img/carousel-link.png) no-repeat center

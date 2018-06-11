@@ -1,0 +1,387 @@
+.services
+  display: flex
+  justify-content: space-between
+  align-items: flex-start
+  width: $page-w - $m-serv-pad-lr * 2
+  margin: 0 auto
+  padding: 0 $m-serv-pad-lr $m-serv-pad-b
+
+  &__item
+    display: flex
+    flex-direction: column
+    justify-content: flex-end
+    align-items: center
+    width: $m-serv-fig-w
+    margin: 81px 0 0 0
+
+    &:nth-child(2)
+      padding-top: 9px
+
+    &:nth-child(3)
+      padding-top: 5px
+
+    &:nth-child(4)
+      padding-top: 13px
+
+  &__desc
+    display: flex
+    flex-direction: column
+    justify-content: flex-end
+    align-items: center
+    margin-top: 30px
+
+  &__title
+    display: inline-block
+    margin-bottom: 20px
+    font-size: 22px
+
+  &__text
+    margin: 0 0 30px
+    text-align: center
+
+  &__line
+    width: 70px
+    height: 3px
+    margin: 0
+    background-color: bgc(m-serv-bot-line)
+    border: none
+
+.comp-info
+  display: flex
+  flex-direction: column
+  justify-content: flex-start
+  align-items: center
+  width: $page-w
+  margin: 0 auto
+  background: url(../img/comp-info-bg-center.png) no-repeat bottom center, url(../img/comp-info-bg-left.png) no-repeat ($m-comp-bg-pos-l - 230px) $m-comp-bg-pos-t, url(../img/comp-info-bg-right.png) no-repeat ($m-comp-bg-pos-l + 230px) $m-comp-bg-pos-t
+  background-color: bgc(sec)
+  /* TODO: Check for bg images are changing positions when scaling page*/
+
+  &__title
+    margin: #{$m-comp-title-marg-tb}
+
+  &__text
+    width: $m-comp-txt-w
+    margin-bottom: $m-comp-txt-marg-b
+
+.promo
+  display: flex
+  justify-content: space-between
+  align-items: center
+  width: $page-w - $m-promo-pad-lr * 2
+  margin: 0 auto
+  padding: $m-promo-pad-t $m-promo-pad-lr $m-promo-pad-b $m-promo-pad-lr
+  +gradient(#{bgc(grad)})
+
+  &-cont
+
+    &__title
+      font-size: 28px
+      text-transform: capitalize
+      color: txtc(#{m-promo-title})
+
+    &__text
+      font-size: 18px
+      color: txtc(#{m-promo-txt})
+
+    &__fword_spec
+      color: txtc(#{m-promo-fword})
+
+.latest-proj
+  display: flex
+  justify-content: flex-start
+  align-items: flex-start
+  flex-wrap: wrap
+  align-content: flex-start
+  width: $page-w - $m-latest-pad-lr * 2
+  margin: 0 auto
+  padding: $m-latest-pad-t $m-latest-pad-lr $m-latest-pad-b
+
+  &__title
+    width: 100%
+    margin: 0 0 30px
+    text-transform: capitalize
+    text-align: center
+
+  &__text
+    width: 100%
+    margin: 0 $m-latest-txt-marg-lr 40px
+    text-align: center
+
+  &__btn
+    margin: 10px auto 0
+
+.proj-nav
+  width: 100%
+  margin: 0 auto 40px
+
+  &-menu
+    display: flex
+    justify-content: center
+    align-items: flex-start
+    padding-left: 0
+
+    &__item
+      margin-left: 10px
+      list-style-type: none
+
+      &:first-child
+        margin-left: 0
+
+    &__link
+      padding: 10px 27px 11px 25px
+      text-transform: capitalize
+      text-decoration: none
+      border: $m-latest-nav-border
+
+.project
+  position: relative
+  width: 370px
+  margin: 0 30px 30px 0
+  background-color: bgc(sec)
+
+  &:nth-child(6)
+    margin-right: 0
+
+  &:nth-child(9)
+    margin-right: 0
+
+  &__btn
+    position: absolute
+    top: 105px
+    /*display: none*/
+    width: 26px
+    height: 26px
+    border: none
+    cursor: pointer
+    outline: none
+
+    &:nth-child(1)
+      left: 145px
+      background: url(../img/proj-link.png) no-repeat center
+
+    &:nth-child(2)
+      left: 200px
+      background: url(../img/proj-lupa.png) no-repeat center
+
+  &__title
+    margin: 30px 0 15px 28px
+
+  &__tags
+    display: inline-block
+    margin: 0 0 27px 30px
+
+.video-pres
+  position: relative
+  width: $page-w
+  height: $m-vid-h
+  margin: 0 auto
+  background: url(../img/video-bg.png) no-repeat center
+
+  &__video
+    width: 100%
+    height: 100%
+
+  &__desc
+    position: absolute
+    top: $m-vid-desc-pos-t
+    left: $m-vid-desc-pos-l
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    align-items: center
+    width: $m-vid-desc-w
+    margin: 0 auto
+
+  &__btn
+    width: 100px
+    height: 100px
+    border: none
+    +prefixes(border-radius, 50%)
+    background: bgc(m-vid-btn) url(../img/video-play-btn.png) no-repeat center
+    cursor: pointer
+    outline: none
+
+  &__title
+    margin: 44px 0 30px
+    color: txtc(m-vid-title)
+
+  &__text
+    margin: 0 0 44px
+    text-align: center
+    color: txtc(m-vid-txt)
+
+  &__dur
+    color: txtc(m-vid-dur)
+
+.adaptive
+  width: $page-w - $m-adapt-pad-l - $m-adapt-pad-r
+  margin: 0 auto
+  padding: $m-adapt-pad
+  background: bgc(sec) url(../img/adapt-bg.png) no-repeat $m-adapt-bg-pos-l bottom
+
+  &__title
+    margin: 0 0 40px
+
+  &__text
+    margin: 0 0 40px
+
+  &-plus
+    margin-left: 50px
+
+    &[open] &__title:before
+      background: url(../img/adapt-details-open.png) no-repeat center
+
+    &__title
+      display: flex
+      justify-content: flex-start
+      align-items: center
+      margin-bottom: 12px
+      cursor: pointer
+      outline: none
+
+      &::-webkit-details-marker
+        display: none
+
+      &:before
+        display: inline-block
+        width: 21px
+        height: 21px
+        margin-right: 29px
+        background: url(../img/adapt-details.png) no-repeat center
+        content: ""
+
+    &__text
+      padding-left: 50px
+
+.comp-achiev
+  display: flex
+  justify-content: space-between
+  align-items: flex-start
+  width: $page-w - $m-achiev-pad-l - $m-achiev-pad-r
+  margin: 0 auto
+  padding: $m-achiev-pad
+  +gradient(#{bgc(grad)})
+
+.achievement
+  margin: 0
+
+  &__img
+    display: block
+    margin: 0 auto 30px
+
+  &__desc
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    align-items: center
+
+  &__num
+    margin-bottom: 21px
+    font-size: 48px
+    color: txtc(m-achiev-num)
+
+  &__name
+    margin-bottom: 30px
+    text-transform: uppercase
+    color: txtc(m-achiev-txt)
+
+  &__line
+    width: 30px
+    height: 2px
+    margin: 0
+    border: none
+    background-color: bgc(m-achiev-bot-line)
+
+.recent-posts
+  display: flex
+  justify-content: space-between
+  align-items: flex-start
+  flex-wrap: wrap
+  align-content: flex-start
+  width: $page-w - $m-rec-posts-pad-lr * 2
+  margin: 0 auto
+  padding: $m-rec-posts-pad
+
+  &__title
+    width: 100%
+    margin: 0 0 30px
+    text-align: center
+
+  &__text
+    width: 100%
+    margin: 0 0 40px
+    text-align: center
+
+.post
+  display: flex
+  flex-direction: column
+  justify-content: flex-start
+  align-items: flex-start
+  width: $m-rec-posts-post-w
+  margin-right: 27px
+  border: $m-rec-posts-post-border
+
+  &:nth-child(5)
+    margin-right: 0
+
+  &__img
+    display: block
+    margin-bottom: 33px
+
+  &__title
+    margin: 0 30px 25px 30px
+    color: txtc(m-rec-posts-post-title)
+
+  &__text
+    margin: 0 30px 30px 30px
+    color: txtc(m-rec-posts-post-txt)
+
+  &__link
+    margin: 0 0 33px 30px
+    text-decoration: none
+    text-transform: capitalize
+    color: txtc(m-rec-posts-post-link)
+
+    &:after
+      display: inline-block
+      width: 0
+      height: 0
+      margin-left: 9px
+      border-top: 5px solid transparent
+      border-bottom: 5px solid transparent
+      border-left: 8px solid txtc(m-rec-posts-post-link)
+      content: ""
+
+  &-carousel
+    display: inline-block
+    margin: 40px auto 0
+
+    &__btn
+      width: 22px
+      height: 22px
+      border: none
+      cursor: pointer
+      outline: none
+
+      &:first-child
+        background: url(../img/rec-posts-btn-left.png) no-repeat center
+
+      &:last-child
+        background: url(../img/rec-posts-btn-right.png) no-repeat center
+
+.clients
+  display: flex
+  justify-content: space-between
+  align-items: center
+  width: $page-w - $m-clients-pad-lr * 2
+  margin: 0 auto
+  padding: $m-clients-pad
+  background: url(../img/clients-bg.png) no-repeat center
+
+  &__link
+    text-decoration: none
+    margin-left: 90px
+
+    &:first-child
+      margin-left: 0
