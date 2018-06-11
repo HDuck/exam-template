@@ -4,7 +4,7 @@ $bg-color: (
   head: rgb(102, 102, 102),
   btn: rgb(153, 134, 117),
   grad: "0deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%",
-  foot-top-grad: "0deg, rgb(54,47,45) 0%, rgb(83,71,65) 100%",
+  foot-top: rgb(25, 25, 25),
   foot-bot: rgb(0, 0, 0),
   m-serv-bot-line: rgb(241, 238, 233),
   m-vid-btn: rgba(0, 0, 0, .2),
@@ -23,7 +23,12 @@ $color: (
   m-achiev-txt: rgb(199, 178, 153),
   m-rec-posts-post-title: rgb(80, 80, 80),
   m-rec-posts-post-txt: rgb(140, 140, 140),
-  m-rec-posts-post-link: rgb(199, 178, 153)
+  m-rec-posts-post-link: rgb(199, 178, 153),
+  f-txt: rgb(85, 85, 85),
+  f-txt-sub: rgb(255, 255, 255),
+  f-date: rgb(54, 54, 54),
+  f-bot-link-org: rgb(149, 149, 149),
+  f-bot-link-item: rgb(199, 178, 153) 
 );
 
 $page-w: 1920px;
@@ -64,4 +69,12 @@ $m-rec-posts-post-w: 370px;
 $m-rec-posts-post-border: 1px solid rgb(248, 248, 248);
 $m-clients-pad-lr: 405px;
 $m-clients-pad-tb: 140px;
-$m-clients-pad: $m-clients-pad-tb $m-clients-pad-lr $m-clients-pad-tb $m-clients-pad-lr
+$m-clients-pad: $m-clients-pad-tb $m-clients-pad-lr;
+$f-top-pad-lr: 375px;
+$f-top-pad-tb: 80px;
+$f-top-pad: $f-top-pad-tb $f-top-pad-lr;
+$f-top-col-w: 270px;
+$f-top-post-border: 1px solid rgb(31, 31, 31);
+$f-bot-pad-lr: $f-top-pad-lr;
+$f-bot-pad: 45px $f-bot-pad-lr 52px $f-bot-pad-lr;
+$f-bot-menu-border: 1px solid txtc(f-txt);

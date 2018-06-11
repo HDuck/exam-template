@@ -1,0 +1,130 @@
+.footer
+  display: flex
+  flex-direction: column
+  justify-content: flex-start
+
+  &-top
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    width: $page-w - $f-top-pad-lr * 2
+    margin: 0 auto
+    padding: $f-top-pad
+    background-color: bgc(foot-top)
+
+  &-bot
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    width: $page-w - $f-bot-pad-lr * 2
+    margin: 0 auto
+    padding: $f-bot-pad
+    background-color: bgc(foot-bot)
+
+.comp-desc
+  display: flex
+  flex-direction: column
+  justify-content: flex-start
+  align-content: flex-start
+  width: $f-top-col-w
+
+  &__text
+    color: txtc(f-txt)
+    margin: 30px 0 35px
+
+  &__link
+    @extend .post__link
+    margin: 0
+
+.foot
+
+  &-recent
+    width: $f-top-col-w
+
+    &__title
+      display: inline-block
+      margin: 30px 0
+      font-size: 24px
+      text-transform: capitalize
+      color: txtc(f-txt-sub)
+
+  &-post
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    align-items: flex-start
+    margin-bottom: 20px
+    padding-bottom: 21px
+    border-bottom: $f-top-post-border
+
+    &:last-child
+      margin-bottom: 0
+      padding-bottom: 0
+      border: none
+
+    &__date
+      font-size: 12px
+      color: txtc(f-date)
+
+    &__text
+      margin: 15px 0 0
+      color: txtc(f-txt)
+
+.twits
+  width: $f-top-col-w
+
+  .foot-post__text
+    margin: 0 0 15px
+
+  &__title
+    @extend .foot-recent__title
+
+.widget
+  width: $f-top-col-w
+
+  &__title
+    @extend .foot-recent__title
+
+  &__wrapper
+    display: flex
+    justify-content: flex-start
+    align-items: flex-start
+    flex-wrap: wrap
+    align-content: flex-start
+
+  &__img
+    margin: 0 10px 10px 0
+
+    &:nth-child(even)
+      margin-right: 0
+
+.foot-info
+  margin: 0
+  padding-left: 0
+
+  &:last-child &__item:last-child &__link
+    color: txtc(f-bot-link-org)
+
+  &__item
+    display: inline
+    padding: 0 12px 0 13px
+    color: txtc(f-txt)
+    list-style-type: none
+    border-left: $f-bot-menu-border
+
+    &:nth-child(3) .foot-info__link
+      text-transform: uppercase
+
+    &:first-child
+      border-left: none
+
+      .foot-info__link
+        color: txtc(f-bot-link-org)
+
+  &__link
+    text-transform: capitalize
+    text-decoration: none
+    color: txtc(f-txt)
+
+    &:hover
+      color: txtc(f-bot-link-item)
