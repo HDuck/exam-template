@@ -47,7 +47,7 @@ body, html {
   width: 1920px;
   margin: 0 auto;
   padding: 40px 0 0 0;
-  background: #666666 url(../img/header-slide-photo1.png) no-repeat center 0/cover;
+  background: #666666 url(../img/h-slide-photo1_prof.jpg) no-repeat center 0/cover;
 }
 .header-nav {
   display: flex;
@@ -92,13 +92,13 @@ body, html {
 .nav-cart {
   width: 18px;
   margin-left: 63px;
-  background: url(../img/icon-cart.png) no-repeat center;
+  background: url(../img/h-sprite_8bit.png) 0 -24px;
 }
 .nav-search {
   width: 24px;
   margin-left: 28px;
   padding: 0;
-  background: url(../img/icon-search.png) no-repeat center;
+  background: url(../img/h-sprite_8bit.png) 0 0;
   border: none;
   cursor: pointer;
   outline: none;
@@ -112,11 +112,17 @@ body, html {
 }
 .carousel-btn_left {
   margin: 380px 0 0 149px;
-  background: url(../img/left.png) no-repeat center;
+  background: url(../img/h-sprite_8bit.png) -24px 0;
+}
+.carousel-btn_left:hover {
+  background: url(../img/h-sprite_8bit.png) -24px -73px;
 }
 .carousel-btn_right {
   margin: 380px 149px 0 0;
-  background: url(../img/right.png) no-repeat center;
+  background: url(../img/h-sprite_8bit.png) -64px 0;
+}
+.carousel-btn_right:hover {
+  background: url(../img/h-sprite_8bit.png) -64px -73px;
 }
 .carousel-txt {
   display: flex;
@@ -147,11 +153,11 @@ body, html {
   justify-content: center;
   align-items: flex-end;
   width: 100%;
-  margin: 329px 0 42px;
+  margin: 327px 0 40px;
   padding-left: 0;
 }
 .carousel-nav__item {
-  margin-left: 10px;
+  margin-left: 6px;
   list-style-type: none;
 }
 .carousel-nav__item:first-child {
@@ -161,8 +167,15 @@ body, html {
   display: block;
   width: 11px;
   height: 11px;
+  margin: 2px 2px;
   text-decoration: none;
-  background: url(../img/carousel-link.png) no-repeat center;
+  background: url(../img/h-sprite_8bit.png) 0 -48px;
+}
+.carousel-nav__link:hover {
+  width: 15px;
+  height: 15px;
+  margin: 0;
+  background: url(../img/h-sprite_8bit.png) 0 -59px;
 }
 
 .services {
@@ -172,6 +185,11 @@ body, html {
   width: 1164px;
   margin: 0 auto;
   padding: 0 378px 80px;
+}
+.services__img {
+  width: 49px;
+  height: 48px;
+  background: url(../img/m-sprite_8bit.png) 0 -44px;
 }
 .services__item {
   display: flex;
@@ -184,11 +202,41 @@ body, html {
 .services__item:nth-child(2) {
   padding-top: 9px;
 }
+.services__item:nth-child(2) .services__img {
+  width: 43px;
+  height: 39px;
+  background: url(../img/m-sprite_8bit.png) -49px -44px;
+}
 .services__item:nth-child(3) {
   padding-top: 5px;
 }
+.services__item:nth-child(3) .services__img {
+  width: 43px;
+  height: 44px;
+  background: url(../img/m-sprite_8bit.png) -93px -44px;
+}
 .services__item:nth-child(4) {
   padding-top: 13px;
+}
+.services__item:nth-child(4) .services__img {
+  width: 52px;
+  height: 35px;
+  background: url(../img/m-sprite_8bit.png) -137px -44px;
+}
+.services__item:hover .services__line {
+  background-color: #c7b299;
+}
+.services__item:hover:first-child .services__img {
+  background: url(../img/m-sprite_8bit.png) 0 -93px no-repeat;
+}
+.services__item:hover:nth-child(2) .services__img {
+  background: url(../img/m-sprite_8bit.png) -49px -93px no-repeat;
+}
+.services__item:hover:nth-child(3) .services__img {
+  background: url(../img/m-sprite_8bit.png) -93px -93px no-repeat;
+}
+.services__item:hover:last-child .services__img {
+  background: url(../img/m-sprite_8bit.png) -137px -93px no-repeat;
 }
 .services__desc {
   display: flex;
@@ -221,7 +269,7 @@ body, html {
   align-items: center;
   width: 1920px;
   margin: 0 auto;
-  background: url(../img/comp-info-bg-center.png) no-repeat center bottom, url(../img/comp-info-bg-left.png) no-repeat 346px bottom, #fbfaf8 url(../img/comp-info-bg-right.png) no-repeat 806px bottom;
+  background: url(../img/m-comp-info-bg-center.jpg) no-repeat center bottom, url(../img/m-comp-info-bg-left.jpg) no-repeat 346px bottom, #fbfaf8 url(../img/m-comp-info-bg-right.jpg) no-repeat 806px bottom;
 }
 .comp-info__title {
   margin: 83px 0 30px;
@@ -320,7 +368,7 @@ body, html {
 .project__btn {
   position: absolute;
   top: 105px;
-  /*display: none*/
+  display: none;
   width: 26px;
   height: 26px;
   border: none;
@@ -329,11 +377,17 @@ body, html {
 }
 .project__btn:nth-child(1) {
   left: 145px;
-  background: url(../img/proj-link.png) no-repeat center;
+  background: url(../img/m-sprite_8bit.png) 0 -142px;
+}
+.project__btn:nth-child(1):hover {
+  background: url(../img/m-sprite_8bit.png) 0 -168px;
 }
 .project__btn:nth-child(2) {
   left: 200px;
-  background: url(../img/proj-lupa.png) no-repeat center;
+  background: url(../img/m-sprite_8bit.png) -26px -142px;
+}
+.project__btn:nth-child(2):hover {
+  background: url(../img/m-sprite_8bit.png) -26px -168px;
 }
 .project__title {
   margin: 30px 0 15px 28px;
@@ -342,13 +396,16 @@ body, html {
   display: inline-block;
   margin: 0 0 27px 30px;
 }
+.project:hover .project__btn {
+  display: block;
+}
 
 .video-pres {
   position: relative;
   width: 1920px;
   height: 705px;
   margin: 0 auto;
-  background: url(../img/video-bg.png) no-repeat center;
+  background: url(../img/m-video-bg.jpg) no-repeat center;
 }
 .video-pres__video {
   width: 100%;
@@ -395,7 +452,7 @@ body, html {
   width: 657px;
   margin: 0 auto;
   padding: 195px 388px 179px 875px;
-  background: #fbfaf8 url(../img/adapt-bg.png) no-repeat 423px bottom;
+  background: #fbfaf8 url(../img/m-adapt-bg.png) no-repeat 423px bottom;
 }
 .adaptive__title {
   margin: 0 0 40px;
@@ -407,7 +464,7 @@ body, html {
   margin-left: 50px;
 }
 .adaptive-plus[open] .adaptive-plus__title:before {
-  background: url(../img/adapt-details-open.png) no-repeat center;
+  background: url(../img/m-sprite_8bit.png) -96px -168px;
 }
 .adaptive-plus__title {
   display: flex;
@@ -425,7 +482,7 @@ body, html {
   width: 21px;
   height: 21px;
   margin-right: 29px;
-  background: url(../img/adapt-details.png) no-repeat center;
+  background: url(../img/m-sprite_8bit.png) -96px -142px;
   content: "";
 }
 .adaptive-plus__text {
@@ -450,7 +507,26 @@ body, html {
 }
 .achievement__img {
   display: block;
+  width: 44px;
+  height: 44px;
   margin: 0 auto 30px;
+}
+.achievement:first-child .achievement__img {
+  background: url(../img/m-sprite_8bit.png) 0 0;
+}
+.achievement:nth-child(2) .achievement__img {
+  width: 48px;
+  background: url(../img/m-sprite_8bit.png) -44px 0;
+}
+.achievement:nth-child(3) .achievement__img {
+  background: url(../img/m-sprite_8bit.png) -92px 0;
+}
+.achievement:nth-child(4) .achievement__img {
+  background: url(../img/m-sprite_8bit.png) -136px 0;
+}
+.achievement:last-child .achievement__img {
+  width: 54px;
+  background: url(../img/m-sprite_8bit.png) -180px 0;
 }
 .achievement__desc {
   display: flex;
@@ -549,10 +625,16 @@ body, html {
   outline: none;
 }
 .post-carousel__btn:first-child {
-  background: url(../img/rec-posts-btn-left.png) no-repeat center;
+  background: url(../img/m-sprite_8bit.png) -52px -142px;
+}
+.post-carousel__btn:first-child:hover {
+  background: url(../img/m-sprite_8bit.png) -52px -168px;
 }
 .post-carousel__btn:last-child {
-  background: url(../img/rec-posts-btn-right.png) no-repeat center;
+  background: url(../img/m-sprite_8bit.png) -74px -142px;
+}
+.post-carousel__btn:last-child:hover {
+  background: url(../img/m-sprite_8bit.png) -74px -168px;
 }
 
 .clients {
@@ -562,7 +644,7 @@ body, html {
   width: 1110px;
   margin: 0 auto;
   padding: 140px 405px;
-  background: url(../img/clients-bg.png) no-repeat center;
+  background: url(../img/m-clients-bg.jpg) no-repeat center;
 }
 .clients__link {
   margin-left: 90px;

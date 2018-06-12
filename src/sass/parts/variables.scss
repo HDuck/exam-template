@@ -7,6 +7,7 @@ $bg-color: (
   foot-top: rgb(25, 25, 25),
   foot-bot: rgb(0, 0, 0),
   m-serv-bot-line: rgb(241, 238, 233),
+  m-serv-bot-line-hover: rgb(199, 178, 153),
   m-vid-btn: rgba(0, 0, 0, .2),
   m-achiev-bot-line: rgb(255, 255, 255)
 );
@@ -35,7 +36,7 @@ $page-w: 1920px;
 $h-menu-w: 1170px;
 $h-slide-txt-w: 589px;
 $h-slide-txt-marg: 286px;
-$h-slide-nav-marg: "329px 0 42px";
+$h-slide-nav-marg: "327px 0 40px";
 $m-serv-fig-w: 266px;
 $m-serv-pad-lr: 378px;
 $m-serv-pad-b: 80px;

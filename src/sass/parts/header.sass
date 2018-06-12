@@ -2,7 +2,7 @@
   width: $page-w
   margin: 0 auto
   padding: 40px 0 0 0
-  background: bgc(head) url(../img/header-slide-photo1.png) no-repeat center 0/cover
+  background: bgc(head) url(../img/h-slide-photo1_prof.jpg) no-repeat center 0/cover
 
   &-nav
     display: flex
@@ -48,13 +48,13 @@
   &-cart
     width: 18px
     margin-left: 63px
-    background: url(../img/icon-cart.png) no-repeat center
+    background: url(../img/h-sprite_8bit.png) 0 -24px
 
   &-search
     width: 24px
     margin-left: 28px
     padding: 0
-    background: url(../img/icon-search.png) no-repeat center
+    background: url(../img/h-sprite_8bit.png) 0 0
     border: none
     cursor: pointer
     outline: none
@@ -69,11 +69,17 @@
 
   &-btn_left
     margin: ($h-slide-txt-marg + 94px) 0 0 149px
-    background: url(../img/left.png) no-repeat center
+    background: url(../img/h-sprite_8bit.png) -24px 0
+
+    &:hover
+      background: url(../img/h-sprite_8bit.png) -24px -73px
 
   &-btn_right
     margin: ($h-slide-txt-marg + 94px) 149px 0 0
-    background: url(../img/right.png) no-repeat center
+    background: url(../img/h-sprite_8bit.png) -64px 0
+
+    &:hover
+      background: url(../img/h-sprite_8bit.png) -64px -73px
 
   &-txt
     display: flex
@@ -108,7 +114,7 @@
     padding-left: 0
 
     &__item
-      margin-left: 10px
+      margin-left: 6px
       list-style-type: none
 
       &:first-child
@@ -118,5 +124,12 @@
       display: block
       width: 11px
       height: 11px
+      margin: 2px 2px
       text-decoration: none
-      background: url(../img/carousel-link.png) no-repeat center
+      background: url(../img/h-sprite_8bit.png) 0 -48px
+
+      &:hover
+        width: 15px
+        height: 15px
+        margin: 0
+        background: url(../img/h-sprite_8bit.png) 0 -59px
