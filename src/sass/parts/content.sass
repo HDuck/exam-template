@@ -53,9 +53,7 @@
   align-items: center
   width: $page-w
   margin: 0 auto
-  background: url(../img/comp-info-bg-center.png) no-repeat bottom center, url(../img/comp-info-bg-left.png) no-repeat ($m-comp-bg-pos-l - 230px) $m-comp-bg-pos-t, url(../img/comp-info-bg-right.png) no-repeat ($m-comp-bg-pos-l + 230px) $m-comp-bg-pos-t
-  background-color: bgc(sec)
-  /* TODO: Check for bg images are changing positions when scaling page*/
+  background: url(../img/comp-info-bg-center.png) no-repeat center bottom, url(../img/comp-info-bg-left.png) no-repeat ($m-comp-bg-pos-l - 230px) bottom, bgc(sec) url(../img/comp-info-bg-right.png) no-repeat ($m-comp-bg-pos-l + 230px) bottom
 
   &__title
     margin: #{$m-comp-title-marg-tb}

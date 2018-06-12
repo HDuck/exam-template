@@ -47,7 +47,7 @@ body, html {
   width: 1920px;
   margin: 0 auto;
   padding: 40px 0 0 0;
-  background: #666666 url(../img/header-slide-photo1.png) no-repeat center;
+  background: #666666 url(../img/header-slide-photo1.png) no-repeat center 0/cover;
 }
 .header-nav {
   display: flex;
@@ -221,9 +221,7 @@ body, html {
   align-items: center;
   width: 1920px;
   margin: 0 auto;
-  background: url(../img/comp-info-bg-center.png) no-repeat bottom center, url(../img/comp-info-bg-left.png) no-repeat 346px 325px, url(../img/comp-info-bg-right.png) no-repeat 806px 325px;
-  background-color: #fbfaf8;
-  /* TODO: Check for bg images are changing positions when scaling page*/
+  background: url(../img/comp-info-bg-center.png) no-repeat center bottom, url(../img/comp-info-bg-left.png) no-repeat 346px bottom, #fbfaf8 url(../img/comp-info-bg-right.png) no-repeat 806px bottom;
 }
 .comp-info__title {
   margin: 83px 0 30px;
@@ -375,6 +373,7 @@ body, html {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  border-radius: 50%;
   background: rgba(0, 0, 0, 0.2) url(../img/video-play-btn.png) no-repeat center;
   cursor: pointer;
   outline: none;
