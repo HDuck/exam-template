@@ -6,6 +6,34 @@
   font-family: "Montserrat_EL";
   src: url(../fonts/Montserrat-ExtraLight.ttf);
 }
+@font-face {
+  font-family: "Montserrat_L";
+  src: url(../fonts/Montserrat-Light.ttf);
+}
+@font-face {
+  font-family: "Montserrat_R";
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: "Raleway_R";
+  src: url(../fonts/Raleway-Regular.ttf);
+}
+@font-face {
+  font-family: "Raleway_M";
+  src: url(../fonts/Raleway-Medium.ttf);
+}
+@font-face {
+  font-family: "Raleway_SB";
+  src: url(../fonts/Raleway-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Raleway_B";
+  src: url(../fonts/Raleway-Bold.ttf);
+}
+@font-face {
+  font-family: "Raleway_EB";
+  src: url(../fonts/Raleway-ExtraBold.ttf);
+}
 body, html {
   padding: 0;
   margin: 0;
@@ -20,35 +48,66 @@ body, html {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  font: 34px/1.2 "Raleway_R", sans-serif;
   text-decoration: none;
   color: white;
 }
 
 .page-title_size1 {
-  font-size: 52px;
+  font: 52px/1.2 "Raleway_EB", sans-serif;
+  font-weight: bold;
+  color: white;
 }
 .page-title_size2 {
-  font-size: 30px;
+  font: 30px/1.2 "Raleway_B", sans-serif;
+  font-weight: bold;
+  color: #555555;
 }
 .page-title_size3 {
-  font-size: 20px;
+  font: 20px/1.2 "Raleway_M", sans-serif;
+  color: #c7b299;
 }
 .page-text_main {
-  font-size: 16px;
+  font: 16px/1.75 "Montserrat_L", sans-serif;
+  color: #8c8c8c;
 }
 .page-text_sub {
-  font-size: 14px;
+  font: 14px/1.2 "Montserrat_L", sans-serif;
+  color: #8c8c8c;
 }
 .page-btn_style {
   display: block;
   padding: 21px 39px 21px 37px;
+  font: 14px/1.643 "Raleway_EB", sans-serif;
+  font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
   color: white;
   background-color: #998675;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0px -3px 0px 0px rgb(115, 99, 87);
+  -moz-box-shadow: inset 0px -3px 0px 0px rgb(115, 99, 87);
+  -ms-box-shadow: inset 0px -3px 0px 0px rgb(115, 99, 87);
+  -o-box-shadow: inset 0px -3px 0px 0px rgb(115, 99, 87);
+  box-shadow: inset 0px -3px 0px 0px rgb(115, 99, 87);
   border: none;
   cursor: pointer;
   outline: none;
+}
+.page-btn_style:hover {
+  color: white;
+  background-color: #c7b299;
+}
+.page-btn_style:active {
+  -webkit-box-shadow: inset 0px 3px 0px 0px rgb(153, 134, 117);
+  -moz-box-shadow: inset 0px 3px 0px 0px rgb(153, 134, 117);
+  -ms-box-shadow: inset 0px 3px 0px 0px rgb(153, 134, 117);
+  -o-box-shadow: inset 0px 3px 0px 0px rgb(153, 134, 117);
+  box-shadow: inset 0px 3px 0px 0px rgb(153, 134, 117);
 }
 
 .header {
@@ -88,9 +147,13 @@ body, html {
   margin-left: 0;
 }
 .nav-menu__link {
+  font: 14px/1.2 "Montserrat_L", sans-serif;
   text-transform: capitalize;
   text-decoration: none;
   color: white;
+}
+.nav-menu__link:hover {
+  color: #c7b299;
 }
 .nav-cart, .nav-search {
   display: inline-block;
@@ -146,15 +209,17 @@ body, html {
   color: white;
 }
 .carousel-txt__subtitle {
-  display: inline-block;
+  font: 36px/1.2 "Raleway_M", sans-serif;
 }
 .carousel-txt__text {
   width: 562px;
+  line-height: 1.5;
   color: white;
 }
 .carousel-txt__btn {
   padding: 21px 39px 21px 37px;
   text-transform: uppercase;
+  box-shadow: inset 0px -3px 0px 0px #736357;
 }
 .carousel-nav {
   display: flex;
@@ -231,6 +296,9 @@ body, html {
   height: 35px;
   background: url(../img/m-sprite_8bit.png) -137px -44px;
 }
+.services__item:hover .services__title {
+  color: #c7b299;
+}
 .services__item:hover .services__line {
   background-color: #c7b299;
 }
@@ -254,13 +322,15 @@ body, html {
   margin-top: 30px;
 }
 .services__title {
-  display: inline-block;
   margin-bottom: 20px;
-  font-size: 22px;
+  font: 22px/1.2 "Raleway_SB", sans-serif;
+  font-weight: bold;
+  color: #555555;
 }
 .services__text {
   margin: 0 0 30px;
   text-align: center;
+  line-height: 1.714;
 }
 .services__line {
   width: 70px;
@@ -285,6 +355,7 @@ body, html {
 .comp-info__text {
   width: 757px;
   margin-bottom: 522px;
+  text-align: center;
 }
 
 .promo {
@@ -300,12 +371,12 @@ body, html {
   background-image: -o-linear-gradient(0deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
 }
 .promo-cont__title {
-  font-size: 28px;
+  font: 28px/1.2 "Raleway_R", sans-serif;
   text-transform: capitalize;
   color: white;
 }
 .promo-cont__text {
-  font-size: 18px;
+  font: 18px/1.2 "Montserrat_L", sans-serif;
   color: #615855;
 }
 .promo-cont__fword_spec {
@@ -356,9 +427,19 @@ body, html {
 }
 .proj-nav-menu__link {
   padding: 10px 27px 11px 25px;
+  line-height: 1.5;
   text-transform: capitalize;
   text-decoration: none;
   border: 1px solid #ebebeb;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+.proj-nav-menu__link:hover {
+  color: white;
+  background-color: #998675;
 }
 
 .project {
@@ -376,6 +457,7 @@ body, html {
 .project__btn {
   position: absolute;
   top: 105px;
+  z-index: 2;
   display: none;
   width: 26px;
   height: 26px;
@@ -404,8 +486,24 @@ body, html {
   display: inline-block;
   margin: 0 0 27px 30px;
 }
+.project:hover {
+  background-color: #362f2d;
+}
+.project:hover .project__img {
+  -webkit-filter: brightness(35%);
+  -moz-filter: brightness(35%);
+  -ms-filter: brightness(35%);
+  -o-filter: brightness(35%);
+  filter: brightness(35%);
+}
 .project:hover .project__btn {
   display: block;
+}
+.project:hover .project__title {
+  color: white;
+}
+.project:hover .project__tags {
+  color: #c7b299;
 }
 
 .video-pres {
@@ -445,6 +543,8 @@ body, html {
 }
 .video-pres__title {
   margin: 44px 0 30px;
+  font-family: "Raleway_M", sans-serif;
+  font-weight: normal;
   color: white;
 }
 .video-pres__text {
@@ -453,6 +553,7 @@ body, html {
   color: white;
 }
 .video-pres__dur {
+  font: 14px/1.714 "Montserrat_R", sans-serif;
   color: #c7b299;
 }
 
@@ -479,6 +580,7 @@ body, html {
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 12px;
+  line-height: 2;
   cursor: pointer;
   outline: none;
 }
@@ -544,11 +646,12 @@ body, html {
 }
 .achievement__num {
   margin-bottom: 21px;
-  font-size: 48px;
+  font: 48px/0.75 "Montserrat_EL", sans-serif;
   color: white;
 }
 .achievement__name {
   margin-bottom: 30px;
+  line-height: 1.429;
   text-transform: uppercase;
   color: #c7b299;
 }
@@ -582,6 +685,7 @@ body, html {
 }
 
 .post {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -589,6 +693,46 @@ body, html {
   width: 370px;
   margin-right: 27px;
   border: 1px solid #f8f8f8;
+}
+.post::before {
+  content: "30";
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 35px;
+  font: 24px/0.833 "Montserrat_L", sans-serif;
+  color: white;
+  background-color: #363636;
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  -ms-border-radius: 3px 3px 0 0;
+  -o-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+}
+.post::after {
+  content: "Sep.";
+  position: absolute;
+  top: 55px;
+  left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 25px;
+  font: 12px/1.667 "Roboto_R", sans-serif;
+  text-align: center;
+  color: white;
+  background-color: #252525;
+  -webkit-border-radius: 0 0 3px 3px;
+  -moz-border-radius: 0 0 3px 3px;
+  -ms-border-radius: 0 0 3px 3px;
+  -o-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
 }
 .post:nth-child(5) {
   margin-right: 0;
@@ -603,15 +747,17 @@ body, html {
 }
 .post__text {
   margin: 0 30px 30px 30px;
+  line-height: 1.571;
   color: #8c8c8c;
 }
 .post__link, .comp-desc__link {
   margin: 0 0 33px 30px;
+  line-height: 1.429;
   text-decoration: none;
   text-transform: capitalize;
   color: #c7b299;
 }
-.post__link:after, .comp-desc__link:after {
+.post__link::after, .comp-desc__link::after {
   display: inline-block;
   width: 0;
   height: 0;
@@ -620,6 +766,28 @@ body, html {
   border-bottom: 5px solid transparent;
   border-left: 8px solid #c7b299;
   content: "";
+}
+.post:hover {
+  background-color: #362f2d;
+}
+.post:hover::before {
+  background-color: #c7b299;
+}
+.post:hover::after {
+  background-color: #a48d72;
+}
+.post:hover .post__img {
+  -webkit-filter: brightness(35%);
+  -moz-filter: brightness(35%);
+  -ms-filter: brightness(35%);
+  -o-filter: brightness(35%);
+  filter: brightness(35%);
+}
+.post:hover .post__title {
+  color: #c7b299;
+}
+.post:hover .post__text {
+  color: white;
 }
 .post-carousel {
   display: inline-block;
@@ -697,11 +865,14 @@ body, html {
   width: 270px;
 }
 .comp-desc__text {
-  color: #555555;
   margin: 30px 0 35px;
+  line-height: 1.714;
+  color: #555555;
 }
 .comp-desc__link {
   margin: 0;
+  font-style: "Montserrat_R", sans-serif;
+  color: #d1d1d1;
 }
 
 .foot-recent {
@@ -710,7 +881,8 @@ body, html {
 .foot-recent__title, .widget__title, .twits__title {
   display: inline-block;
   margin: 30px 0;
-  font-size: 24px;
+  font: 24px/1.2 "Raleway_B", sans-serif;
+  font-weight: bold;
   text-transform: capitalize;
   color: white;
 }
@@ -729,12 +901,19 @@ body, html {
   border: none;
 }
 .foot-post__date {
-  font-size: 12px;
+  font: 12px/1.667 "Montserrat_L", sans-serif;
   color: #363636;
 }
 .foot-post__text {
   margin: 15px 0 0;
+  line-height: 1.429;
   color: #555555;
+}
+.foot-post:hover .foot-post__date {
+  color: white;
+}
+.foot-post:hover .foot-post__text {
+  color: #c7b299;
 }
 
 .twits {
@@ -761,6 +940,9 @@ body, html {
 }
 
 .foot-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
   margin: 0;
   padding-left: 0;
 }
@@ -770,6 +952,7 @@ body, html {
 .foot-info__item {
   display: inline;
   padding: 0 12px 0 13px;
+  font: 13px/1.538 "Montserrat_L", sans-serif;
   color: #555555;
   list-style-type: none;
   border-left: 1px solid #555555;

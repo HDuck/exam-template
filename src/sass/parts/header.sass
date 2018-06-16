@@ -36,9 +36,13 @@
         margin-left: 0
 
     &__link
+      font: #{14px/1.2} "Montserrat_L", sans-serif
       text-transform: capitalize
       text-decoration: none
-      color: txtc(h-text)
+      color: txtc(h-menu-link)
+
+      &:hover
+        color: txtc(h-menu-link_hov)
 
   &-cart, &-search
     display: inline-block
@@ -95,15 +99,17 @@
       color: txtc(h-text)
 
     &__subtitle
-      display: inline-block
+      font: #{36px/1.2} "Raleway_M", sans-serif      
 
     &__text
       width: ($h-slide-txt-w - 27px)
+      line-height: 1.5
       color: txtc(h-text)
 
     &__btn
       padding: 21px 39px 21px 37px
       text-transform: uppercase
+      box-shadow: inset 0px -3px 0px 0px rgb(115, 99, 87)
 
   &-nav
     display: flex

@@ -45,6 +45,8 @@
 
     &:hover
 
+      .services__title
+        color: txtc(m-serv-title_hov)
       .services__line
         background-color: bgc(m-serv-bot-line-hover)
 
@@ -68,13 +70,15 @@
     margin-top: 30px
 
   &__title
-    display: inline-block
     margin-bottom: 20px
-    font-size: 22px
+    font: #{22px/1.2} "Raleway_SB", sans-serif
+    font-weight: bold
+    color: txtc(title-s2)
 
   &__text
     margin: 0 0 30px
     text-align: center
+    line-height: 1.714
 
   &__line
     width: 70px
@@ -98,6 +102,7 @@
   &__text
     width: $m-comp-txt-w
     margin-bottom: $m-comp-txt-marg-b
+    text-align: center
 
 .promo
   display: flex
@@ -111,12 +116,12 @@
   &-cont
 
     &__title
-      font-size: 28px
+      font: #{28px/1.2} "Raleway_R", sans-serif
       text-transform: capitalize
       color: txtc(#{m-promo-title})
 
     &__text
-      font-size: 18px
+      font: #{18px/1.2} "Montserrat_L", sans-serif
       color: txtc(#{m-promo-txt})
 
     &__fword_spec
@@ -165,9 +170,15 @@
 
     &__link
       padding: 10px 27px 11px 25px
+      line-height: 1.5
       text-transform: capitalize
       text-decoration: none
       border: $m-latest-nav-border
+      +prefixes(border-radius, "3px")
+
+      &:hover
+        color: txtc(m-proj-link_hov)
+        background-color: bgc(m-proj-link_hov)
 
 .project
   position: relative
@@ -184,6 +195,7 @@
   &__btn
     position: absolute
     top: 105px
+    z-index: 2
     display: none
     width: 26px
     height: 26px
@@ -212,8 +224,20 @@
     display: inline-block
     margin: 0 0 27px 30px
 
-  &:hover &__btn
-    display: block
+  &:hover
+    background-color: bgc(m-proj_hov)
+
+    .project__img
+      +prefixes(filter, "brightness(35%)")
+
+    .project__btn
+      display: block
+
+    .project__title
+      color: txtc(m-proj-title_hov)
+
+    .project__tags
+      color: txtc(m-proj-tags_hov)
 
 .video-pres
   position: relative
@@ -248,6 +272,8 @@
 
   &__title
     margin: 44px 0 30px
+    font-family: "Raleway_M", sans-serif
+    font-weight: normal
     color: txtc(m-vid-title)
 
   &__text
@@ -256,6 +282,7 @@
     color: txtc(m-vid-txt)
 
   &__dur
+    font: #{14px/1.714} "Montserrat_R", sans-serif
     color: txtc(m-vid-dur)
 
 .adaptive
@@ -281,6 +308,7 @@
       justify-content: flex-start
       align-items: center
       margin-bottom: 12px
+      line-height: 2
       cursor: pointer
       outline: none
 
@@ -341,11 +369,12 @@
 
   &__num
     margin-bottom: 21px
-    font-size: 48px
+    font: #{48px/0.75} "Montserrat_EL", sans-serif
     color: txtc(m-achiev-num)
 
   &__name
     margin-bottom: 30px
+    line-height: 1.429
     text-transform: uppercase
     color: txtc(m-achiev-txt)
 
@@ -377,6 +406,7 @@
     text-align: center
 
 .post
+  position: relative
   display: flex
   flex-direction: column
   justify-content: flex-start
@@ -384,6 +414,38 @@
   width: $m-rec-posts-post-w
   margin-right: 27px
   border: $m-rec-posts-post-border
+
+  &::before
+    content: "30"
+    position: absolute
+    top: 20px
+    left: 20px
+    z-index: 2
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 50px
+    height: 35px
+    font: #{24px/0.833} "Montserrat_L", sans-serif
+    color: rgb(255, 255, 255)
+    background-color: rgb(54, 54, 54)
+    +prefixes(border-radius, "3px 3px 0 0")
+
+  &::after
+    content: "Sep."
+    position: absolute
+    top: 55px
+    left: 20px
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 50px
+    height: 25px
+    font: #{12px/1.667} "Roboto_R", sans-serif
+    text-align: center
+    color: rgb(255, 255, 255)
+    background-color: rgb(37, 37, 37)
+    +prefixes(border-radius, "0 0 3px 3px")
 
   &:nth-child(5)
     margin-right: 0
@@ -398,15 +460,17 @@
 
   &__text
     margin: 0 30px 30px 30px
+    line-height: 1.571
     color: txtc(m-rec-posts-post-txt)
 
   &__link
     margin: 0 0 33px 30px
+    line-height: 1.429
     text-decoration: none
     text-transform: capitalize
     color: txtc(m-rec-posts-post-link)
 
-    &:after
+    &::after
       display: inline-block
       width: 0
       height: 0
@@ -416,6 +480,25 @@
       border-left: 8px solid txtc(m-rec-posts-post-link)
       content: ""
 
+  &:hover
+    background-color: bgc(m-post_hov)
+
+    &::before
+      background-color: rgb(199, 178, 153)
+
+    &::after
+      background-color: rgb(164, 141, 114)
+
+    .post__img
+      +prefixes(filter, "brightness(35%)")
+
+    .post__title
+      color: txtc(m-rec-posts-post-title_hov)
+
+    .post__text
+      color: txtc(m-rec-posts-post-txt_hov)
+  
+  
   &-carousel
     display: inline-block
     margin: 40px auto 0

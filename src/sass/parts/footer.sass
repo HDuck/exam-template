@@ -29,12 +29,15 @@
   width: $f-top-col-w
 
   &__text
-    color: txtc(f-txt)
     margin: 30px 0 35px
+    line-height: 1.714
+    color: txtc(f-txt)
 
   &__link
     @extend .post__link
     margin: 0
+    font-style: "Montserrat_R", sans-serif
+    color: txtc(f-top-link)
 
 .foot
 
@@ -44,7 +47,8 @@
     &__title
       display: inline-block
       margin: 30px 0
-      font-size: 24px
+      font: #{24px/1.2} "Raleway_B", sans-serif
+      font-weight: bold
       text-transform: capitalize
       color: txtc(f-txt-sub)
 
@@ -63,12 +67,21 @@
       border: none
 
     &__date
-      font-size: 12px
-      color: txtc(f-date)
+      font: #{12px/1.667} "Montserrat_L", sans-serif
+      color: txtc(f-top-date)
 
     &__text
       margin: 15px 0 0
+      line-height: 1.429
       color: txtc(f-txt)
+
+    &:hover
+
+      .foot-post__date
+        color: txtc(f-top-date_hov)
+
+      .foot-post__text
+        color: txtc(f-top-text_hov)
 
 .twits
   width: $f-top-col-w
@@ -99,6 +112,9 @@
       margin-right: 0
 
 .foot-info
+  display: flex
+  justify-content: flex-start
+  align-items: flex-start
   margin: 0
   padding-left: 0
 
@@ -108,6 +124,7 @@
   &__item
     display: inline
     padding: 0 12px 0 13px
+    font: #{13px/1.538} "Montserrat_L", sans-serif
     color: txtc(f-txt)
     list-style-type: none
     border-left: $f-bot-menu-border
