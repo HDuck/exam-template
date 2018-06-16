@@ -9,7 +9,9 @@
   &__img
     width: 49px
     height: 48px
-    background: url(../img/m-sprite_8bit.png) 0 -44px
+
+    &-svg
+      fill: rgb(85, 85, 85)
 
   &__item
     display: flex
@@ -25,7 +27,6 @@
       .services__img
         width: 43px
         height: 39px
-        background: url(../img/m-sprite_8bit.png) -49px -44px
 
     &:nth-child(3)
       padding-top: 5px
@@ -33,7 +34,6 @@
       .services__img
         width: 43px
         height: 44px
-        background: url(../img/m-sprite_8bit.png) -93px -44px
 
     &:nth-child(4)
       padding-top: 13px
@@ -41,26 +41,24 @@
       .services__img
         width: 52px
         height: 35px
-        background: url(../img/m-sprite_8bit.png) -137px -44px
+
+    &::after
+      content: ""
+      display: block
+      width: 70px
+      height: 3px
+      background-color: bgc(m-serv-bot-line)
 
     &:hover
 
       .services__title
         color: txtc(m-serv-title_hov)
-      .services__line
-        background-color: bgc(m-serv-bot-line-hover)
 
-      &:first-child .services__img
-        background: url(../img/m-sprite_8bit.png) 0 -93px no-repeat
+      &::after
+        background-color: bgc(m-serv-bot-line_hov)
 
-      &:nth-child(2) .services__img
-        background: url(../img/m-sprite_8bit.png) -49px -93px no-repeat
-
-      &:nth-child(3) .services__img
-        background: url(../img/m-sprite_8bit.png) -93px -93px no-repeat
-
-      &:last-child .services__img
-        background: url(../img/m-sprite_8bit.png) -137px -93px no-repeat
+      .services__img-svg
+        fill: bgc(m-serv-icon_hov)
 
   &__desc
     display: flex
@@ -79,13 +77,6 @@
     margin: 0 0 30px
     text-align: center
     line-height: 1.714
-
-  &__line
-    width: 70px
-    height: 3px
-    margin: 0
-    background-color: bgc(m-serv-bot-line)
-    border: none
 
 .comp-info
   display: flex
@@ -199,23 +190,24 @@
     display: none
     width: 26px
     height: 26px
+    padding: 0
     border: none
     cursor: pointer
     outline: none
 
     &:nth-child(1)
       left: 145px
-      background: url(../img/m-sprite_8bit.png) 0 -142px
+      background: url(../img/svg/link.svg) no-repeat center
 
       &:hover
-        background: url(../img/m-sprite_8bit.png) 0 -168px
+        background-image: url(../img/svg/link_hov.svg)
 
     &:nth-child(2)
       left: 200px
-      background: url(../img/m-sprite_8bit.png) -26px -142px
+      background: url(../img/svg/zoom.svg) no-repeat center
 
       &:hover
-        background: url(../img/m-sprite_8bit.png) -26px -168px
+        background-image: url(../img/svg/zoom_hov.svg)
 
   &__title
     margin: 30px 0 15px 28px
@@ -266,9 +258,12 @@
     height: 100px
     border: none
     +prefixes(border-radius, 50%)
-    background: bgc(m-vid-btn) url(../img/video-play-btn.png) no-repeat center
+    background: bgc(m-vid-btn) url(../img/svg/vid-play-btn.svg) no-repeat center
     cursor: pointer
     outline: none
+
+    &:hover
+      background-image: url(../img/svg/vid-play-btn_hov.svg)
 
   &__title
     margin: 44px 0 30px
@@ -300,8 +295,9 @@
   &-plus
     margin-left: 50px
 
-    &[open] &__title:before
-      background: url(../img/m-sprite_8bit.png) -96px -168px
+    &[open] &__title::before
+      background-image: url(../img/svg/adapt-arrow_hov.svg)
+      transform: rotate(90deg)
 
     &__title
       display: flex
@@ -315,12 +311,12 @@
       &::-webkit-details-marker
         display: none
 
-      &:before
+      &::before
         display: inline-block
         width: 21px
         height: 21px
         margin-right: 29px
-        background: url(../img/m-sprite_8bit.png) -96px -142px
+        background: url(../img/svg/adapt-arrow.svg) no-repeat center
         content: ""
 
     &__text
@@ -338,28 +334,28 @@
 .achievement
   margin: 0
 
+  &::after
+    content: ""
+    display: block
+    width: 30px
+    height: 2px
+    margin: 0 auto
+    background-color: bgc(m-achiev-bot-line)
+
   &__img
     display: block
     width: 44px
     height: 44px
     margin: 0 auto 30px
 
-  &:first-child &__img
-    background: url(../img/m-sprite_8bit.png) 0 0
+    &-svg
+      fill: bgc(m-achiev-icon)
 
   &:nth-child(2) &__img
     width: 48px
-    background: url(../img/m-sprite_8bit.png) -44px 0
-
-  &:nth-child(3) &__img
-    background: url(../img/m-sprite_8bit.png) -92px 0
-
-  &:nth-child(4) &__img
-    background: url(../img/m-sprite_8bit.png) -136px 0
 
   &:last-child &__img
     width: 54px
-    background: url(../img/m-sprite_8bit.png) -180px 0
 
   &__desc
     display: flex
@@ -377,13 +373,6 @@
     line-height: 1.429
     text-transform: uppercase
     color: txtc(m-achiev-txt)
-
-  &__line
-    width: 30px
-    height: 2px
-    margin: 0
-    border: none
-    background-color: bgc(m-achiev-bot-line)
 
 .recent-posts
   display: flex
@@ -511,16 +500,16 @@
       outline: none
 
       &:first-child
-        background: url(../img/m-sprite_8bit.png) -52px -142px
+        background: url(../img/svg/rec-posts-btn-left.svg) no-repeat center
 
         &:hover
-          background: url(../img/m-sprite_8bit.png) -52px -168px
+          background-image: url(../img/svg/rec-posts-btn-left_hov.svg)
 
       &:last-child
-        background: url(../img/m-sprite_8bit.png) -74px -142px
+        background: url(../img/svg/rec-posts-btn-right.svg) no-repeat center
 
         &:hover
-          background: url(../img/m-sprite_8bit.png) -74px -168px
+          background-image: url(../img/svg/rec-posts-btn-right_hov.svg)
 
 .clients
   display: flex

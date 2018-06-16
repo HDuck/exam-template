@@ -163,13 +163,13 @@ body, html {
 .nav-cart {
   width: 18px;
   margin-left: 63px;
-  background: url(../img/h-sprite_8bit.png) 0 -24px;
+  background: url(../img/svg/icon-cart.svg);
 }
 .nav-search {
   width: 24px;
   margin-left: 28px;
   padding: 0;
-  background: url(../img/h-sprite_8bit.png) 0 0;
+  background: url(../img/svg/icon-search.svg);
   border: none;
   cursor: pointer;
   outline: none;
@@ -262,7 +262,9 @@ body, html {
 .services__img {
   width: 49px;
   height: 48px;
-  background: url(../img/m-sprite_8bit.png) 0 -44px;
+}
+.services__img-svg {
+  fill: #555555;
 }
 .services__item {
   display: flex;
@@ -278,7 +280,6 @@ body, html {
 .services__item:nth-child(2) .services__img {
   width: 43px;
   height: 39px;
-  background: url(../img/m-sprite_8bit.png) -49px -44px;
 }
 .services__item:nth-child(3) {
   padding-top: 5px;
@@ -286,7 +287,6 @@ body, html {
 .services__item:nth-child(3) .services__img {
   width: 43px;
   height: 44px;
-  background: url(../img/m-sprite_8bit.png) -93px -44px;
 }
 .services__item:nth-child(4) {
   padding-top: 13px;
@@ -294,25 +294,22 @@ body, html {
 .services__item:nth-child(4) .services__img {
   width: 52px;
   height: 35px;
-  background: url(../img/m-sprite_8bit.png) -137px -44px;
+}
+.services__item::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  background-color: #f1eee9;
 }
 .services__item:hover .services__title {
   color: #c7b299;
 }
-.services__item:hover .services__line {
+.services__item:hover::after {
   background-color: #c7b299;
 }
-.services__item:hover:first-child .services__img {
-  background: url(../img/m-sprite_8bit.png) 0 -93px no-repeat;
-}
-.services__item:hover:nth-child(2) .services__img {
-  background: url(../img/m-sprite_8bit.png) -49px -93px no-repeat;
-}
-.services__item:hover:nth-child(3) .services__img {
-  background: url(../img/m-sprite_8bit.png) -93px -93px no-repeat;
-}
-.services__item:hover:last-child .services__img {
-  background: url(../img/m-sprite_8bit.png) -137px -93px no-repeat;
+.services__item:hover .services__img-svg {
+  fill: #c7b299;
 }
 .services__desc {
   display: flex;
@@ -331,13 +328,6 @@ body, html {
   margin: 0 0 30px;
   text-align: center;
   line-height: 1.714;
-}
-.services__line {
-  width: 70px;
-  height: 3px;
-  margin: 0;
-  background-color: #f1eee9;
-  border: none;
 }
 
 .comp-info {
@@ -461,23 +451,24 @@ body, html {
   display: none;
   width: 26px;
   height: 26px;
+  padding: 0;
   border: none;
   cursor: pointer;
   outline: none;
 }
 .project__btn:nth-child(1) {
   left: 145px;
-  background: url(../img/m-sprite_8bit.png) 0 -142px;
+  background: url(../img/svg/link.svg) no-repeat center;
 }
 .project__btn:nth-child(1):hover {
-  background: url(../img/m-sprite_8bit.png) 0 -168px;
+  background-image: url(../img/svg/link_hov.svg);
 }
 .project__btn:nth-child(2) {
   left: 200px;
-  background: url(../img/m-sprite_8bit.png) -26px -142px;
+  background: url(../img/svg/zoom.svg) no-repeat center;
 }
 .project__btn:nth-child(2):hover {
-  background: url(../img/m-sprite_8bit.png) -26px -168px;
+  background-image: url(../img/svg/zoom_hov.svg);
 }
 .project__title {
   margin: 30px 0 15px 28px;
@@ -537,9 +528,12 @@ body, html {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%;
-  background: rgba(0, 0, 0, 0.2) url(../img/video-play-btn.png) no-repeat center;
+  background: rgba(0, 0, 0, 0.2) url(../img/svg/vid-play-btn.svg) no-repeat center;
   cursor: pointer;
   outline: none;
+}
+.video-pres__btn:hover {
+  background-image: url(../img/svg/vid-play-btn_hov.svg);
 }
 .video-pres__title {
   margin: 44px 0 30px;
@@ -572,8 +566,9 @@ body, html {
 .adaptive-plus {
   margin-left: 50px;
 }
-.adaptive-plus[open] .adaptive-plus__title:before {
-  background: url(../img/m-sprite_8bit.png) -96px -168px;
+.adaptive-plus[open] .adaptive-plus__title::before {
+  background-image: url(../img/svg/adapt-arrow_hov.svg);
+  transform: rotate(90deg);
 }
 .adaptive-plus__title {
   display: flex;
@@ -587,12 +582,12 @@ body, html {
 .adaptive-plus__title::-webkit-details-marker {
   display: none;
 }
-.adaptive-plus__title:before {
+.adaptive-plus__title::before {
   display: inline-block;
   width: 21px;
   height: 21px;
   margin-right: 29px;
-  background: url(../img/m-sprite_8bit.png) -96px -142px;
+  background: url(../img/svg/adapt-arrow.svg) no-repeat center;
   content: "";
 }
 .adaptive-plus__text {
@@ -615,28 +610,28 @@ body, html {
 .achievement {
   margin: 0;
 }
+.achievement::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 2px;
+  margin: 0 auto;
+  background-color: white;
+}
 .achievement__img {
   display: block;
   width: 44px;
   height: 44px;
   margin: 0 auto 30px;
 }
-.achievement:first-child .achievement__img {
-  background: url(../img/m-sprite_8bit.png) 0 0;
+.achievement__img-svg {
+  fill: #c7b299;
 }
 .achievement:nth-child(2) .achievement__img {
   width: 48px;
-  background: url(../img/m-sprite_8bit.png) -44px 0;
-}
-.achievement:nth-child(3) .achievement__img {
-  background: url(../img/m-sprite_8bit.png) -92px 0;
-}
-.achievement:nth-child(4) .achievement__img {
-  background: url(../img/m-sprite_8bit.png) -136px 0;
 }
 .achievement:last-child .achievement__img {
   width: 54px;
-  background: url(../img/m-sprite_8bit.png) -180px 0;
 }
 .achievement__desc {
   display: flex;
@@ -654,13 +649,6 @@ body, html {
   line-height: 1.429;
   text-transform: uppercase;
   color: #c7b299;
-}
-.achievement__line {
-  width: 30px;
-  height: 2px;
-  margin: 0;
-  border: none;
-  background-color: white;
 }
 
 .recent-posts {
@@ -801,16 +789,16 @@ body, html {
   outline: none;
 }
 .post-carousel__btn:first-child {
-  background: url(../img/m-sprite_8bit.png) -52px -142px;
+  background: url(../img/svg/rec-posts-btn-left.svg) no-repeat center;
 }
 .post-carousel__btn:first-child:hover {
-  background: url(../img/m-sprite_8bit.png) -52px -168px;
+  background-image: url(../img/svg/rec-posts-btn-left_hov.svg);
 }
 .post-carousel__btn:last-child {
-  background: url(../img/m-sprite_8bit.png) -74px -142px;
+  background: url(../img/svg/rec-posts-btn-right.svg) no-repeat center;
 }
 .post-carousel__btn:last-child:hover {
-  background: url(../img/m-sprite_8bit.png) -74px -168px;
+  background-image: url(../img/svg/rec-posts-btn-right_hov.svg);
 }
 
 .clients {
