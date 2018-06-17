@@ -897,7 +897,7 @@ body, html {
 }
 .comp-desc__link {
   margin: 0;
-  font-style: "Montserrat_R", sans-serif;
+  font-family: "Montserrat_R", sans-serif;
   color: #d1d1d1;
 }
 
