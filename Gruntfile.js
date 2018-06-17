@@ -93,7 +93,7 @@ module.exports = function(grunt) {
 
       default: {
         files: {
-          'src/img/sprites/result.svg': ['src/img/svg/svg_for_sprite/*.svg']
+          'src/img/sprites/result.svg': ['src/img/sprites/svg_for_sprite/*.svg']
         }
       }
 

@@ -849,7 +849,7 @@ body, html {
   width: 1110px;
   margin: 0 auto;
   padding: 140px 405px;
-  background: url(../img/m-clients-bg.jpg) no-repeat center;
+  background: #191919 url(../img/m-clients-bg.jpg) no-repeat center 0/cover;
 }
 .clients__link {
   margin-left: 90px;
@@ -857,9 +857,6 @@ body, html {
 }
 .clients__link:first-child {
   margin-left: 0;
-}
-.clients__link:nth-child(2) {
-  height: 210px;
 }
 
 .footer {
