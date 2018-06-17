@@ -87,19 +87,17 @@ module.exports = function(grunt) {
         tasks: 'sass'
       }
     },
-/*
-    watch: {
-      
-      sass: {
-        files: 'src/sass/parts/*.sass',
-        tasks: ['concat:sass', 'sass']
-      },
-      
-      js: {
-        files: 'src/js/parts/*.js',
-        tasks: 'concat:js'
+
+    svgstore: {
+      options: {},
+
+      default: {
+        files: {
+          'src/img/sprites/result.svg': ['src/img/svg/svg_for_sprite/*.svg']
+        }
       }
-    }*/
+
+    },
   });
 
   grunt.loadNpmTasks('grunt-contrib-jshint');
@@ -110,4 +108,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-w3c-html-validation');
+  grunt.loadNpmTasks('grunt-svgstore');
 }

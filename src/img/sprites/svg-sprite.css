@@ -1,0 +1,117 @@
+.achiev-client {
+	width: 44px;
+	height: 44px;
+	background-position: 0 0;
+}
+
+.achiev-coffee {
+	width: 48px;
+	height: 44px;
+	background-position: -50px 0;
+}
+
+.achiev-launch {
+	width: 54px;
+	height: 44px;
+	background-position: -105px 0;
+}
+
+.achiev-like {
+	width: 44px;
+	height: 44px;
+	background-position: -165px 0;
+}
+
+.achiev-post {
+	width: 44px;
+	height: 44px;
+	background-position: -215px 0;
+}
+
+.adapt-arrow {
+	width: 21px;
+	height: 21px;
+	background-position: -265px 0;
+}
+
+.icon-cart {
+	width: 18px;
+	height: 24px;
+	background-position: -295px 0;
+}
+
+.icon-search {
+	width: 24px;
+	height: 24px;
+	background-position: -320px 0;
+}
+
+.link {
+	width: 25px;
+	height: 25px;
+	background-position: -350px 0;
+}
+
+.logo {
+	width: 64px;
+	height: 56px;
+	background-position: -380px 0;
+}
+
+.rec-posts-btn-left {
+	width: 22px;
+	height: 22px;
+	background-position: -450px 0;
+}
+
+.rec-posts-btn-right {
+	width: 22px;
+	height: 22px;
+	background-position: -480px 0;
+}
+
+.serv1 {
+	width: 48px;
+	height: 48px;
+	background-position: -510px 0;
+}
+
+.serv2 {
+	width: 43px;
+	height: 40px;
+	background-position: -565px 0;
+}
+
+.serv3 {
+	width: 44px;
+	height: 44px;
+	background-position: -615px 0;
+}
+
+.serv4 {
+	width: 51px;
+	height: 36px;
+	background-position: -665px 0;
+}
+
+.vid-play-btn {
+	width: 70px;
+	height: 70px;
+	background-position: -725px 0;
+}
+
+.zoom {
+	width: 26px;
+	height: 25px;
+	background-position: -800px 0;
+}
+
+.achiev-client, .achiev-coffee, .achiev-launch, .achiev-like, .achiev-post, .adapt-arrow, .icon-cart, .icon-search, .link, .logo, .rec-posts-btn-left, .rec-posts-btn-right, .serv1, .serv2, .serv3, .serv4, .vid-play-btn, .zoom {
+	background-size: 835px 75px;
+	background-repeat: no-repeat;
+	background-image: url("svg-sprite.png");
+}
+
+.svg .achiev-client, .svg .achiev-coffee, .svg .achiev-launch, .svg .achiev-like, .svg .achiev-post, .svg .adapt-arrow, .svg .icon-cart, .svg .icon-search, .svg .link, .svg .logo, .svg .rec-posts-btn-left, .svg .rec-posts-btn-right, .svg .serv1, .svg .serv2, .svg .serv3, .svg .serv4, .svg .vid-play-btn, .svg .zoom {
+	background-image: url("svg-sprite.svg");
+}

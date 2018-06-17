@@ -9,9 +9,7 @@
   &__img
     width: 49px
     height: 48px
-
-    &-svg
-      fill: rgb(85, 85, 85)
+    fill: rgb(85, 85, 85)
 
   &__item
     display: flex
@@ -57,7 +55,7 @@
       &::after
         background-color: bgc(m-serv-bot-line_hov)
 
-      .services__img-svg
+      .services__img
         fill: bgc(m-serv-icon_hov)
 
   &__desc
@@ -177,6 +175,16 @@
   margin: 0 30px 30px 0
   background-color: bgc(sec)
 
+  &::before
+    content: ""
+    position: absolute
+    top: 215px
+    left: 19px
+    z-index: 2
+    display: block
+    border: 15px solid transparent
+    border-bottom: 10px solid bgc(sec)
+
   &:nth-child(6)
     margin-right: 0
 
@@ -188,26 +196,25 @@
     top: 105px
     z-index: 2
     display: none
-    width: 26px
-    height: 26px
     padding: 0
+    background: none
     border: none
     cursor: pointer
     outline: none
 
     &:nth-child(1)
       left: 145px
-      background: url(../img/svg/link.svg) no-repeat center
-
-      &:hover
-        background-image: url(../img/svg/link_hov.svg)
 
     &:nth-child(2)
       left: 200px
-      background: url(../img/svg/zoom.svg) no-repeat center
 
-      &:hover
-        background-image: url(../img/svg/zoom_hov.svg)
+    &-img
+      width: 26px
+      height: 26px
+      fill: bgc(m-proj-link-zoom)
+
+    &:hover &-img
+      fill: bgc(m-proj-link-zoom_hov)
 
   &__title
     margin: 30px 0 15px 28px
@@ -218,6 +225,9 @@
 
   &:hover
     background-color: bgc(m-proj_hov)
+
+    &::before
+      border-bottom-color: bgc(m-proj_hov)
 
     .project__img
       +prefixes(filter, "brightness(35%)")
@@ -254,16 +264,24 @@
     margin: 0 auto
 
   &__btn
+    display: flex
+    justify-content: center
+    align-items: center
     width: 100px
     height: 100px
+    padding: 0
     border: none
     +prefixes(border-radius, 50%)
-    background: bgc(m-vid-btn) url(../img/svg/vid-play-btn.svg) no-repeat center
+    background-color: bgc(m-vid-btn)
     cursor: pointer
     outline: none
 
-    &:hover
-      background-image: url(../img/svg/vid-play-btn_hov.svg)
+    &-img
+      fill: bgc(m-vid-btn-play)
+
+    &:hover &-img
+      fill: bgc(m-vid-btn-play_hov)
+
 
   &__title
     margin: 44px 0 30px
@@ -347,9 +365,7 @@
     width: 44px
     height: 44px
     margin: 0 auto 30px
-
-    &-svg
-      fill: bgc(m-achiev-icon)
+    fill: bgc(m-achiev-icon)
 
   &:nth-child(2) &__img
     width: 48px
@@ -495,21 +511,16 @@
     &__btn
       width: 22px
       height: 22px
+      background: none
       border: none
       cursor: pointer
       outline: none
 
-      &:first-child
-        background: url(../img/svg/rec-posts-btn-left.svg) no-repeat center
+      &-img
+        fill: bgc(m-rec-posts-btn)
 
-        &:hover
-          background-image: url(../img/svg/rec-posts-btn-left_hov.svg)
-
-      &:last-child
-        background: url(../img/svg/rec-posts-btn-right.svg) no-repeat center
-
-        &:hover
-          background-image: url(../img/svg/rec-posts-btn-right_hov.svg)
+      &:hover &-img
+        fill: bgc(m-rec-posts-btn_hov)
 
 .clients
   display: flex
