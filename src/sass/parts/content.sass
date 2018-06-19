@@ -10,6 +10,7 @@
     width: 49px
     height: 48px
     fill: rgb(85, 85, 85)
+    transition: fill .35s ease-in-out 0s
 
   &__item
     display: flex
@@ -46,6 +47,7 @@
       width: 70px
       height: 3px
       background-color: bgc(m-serv-bot-line)
+      transition: background-color .35s ease-in-out 0s
 
     &:hover
 
@@ -70,6 +72,7 @@
     font: #{22px/1.2} "Raleway_SB", sans-serif
     font-weight: bold
     color: txtc(title-s2)
+    transition: color .35s ease-in-out 0s
 
   &__text
     margin: 0 0 30px
@@ -164,6 +167,7 @@
       text-decoration: none
       border: $m-latest-nav-border
       +prefixes(border-radius, "3px")
+      transition: color .25s ease-out .2s, background-color .25s ease-in-out 0s
 
       &:hover
         color: txtc(m-proj-link_hov)
@@ -174,6 +178,7 @@
   width: 370px
   margin: 0 30px 30px 0
   background-color: bgc(sec)
+  transition: background-color .35s ease-out .1s
 
   &::before
     content: ""
@@ -184,6 +189,7 @@
     display: block
     border: 15px solid transparent
     border-bottom: 10px solid bgc(sec)
+    transition: border-bottom-color .35s ease-out .1s
 
   &:nth-child(6)
     margin-right: 0
@@ -195,7 +201,7 @@
     position: absolute
     top: 105px
     z-index: 2
-    display: none
+    visibility: hidden
     padding: 0
     background: none
     border: none
@@ -209,19 +215,23 @@
       left: 200px
 
     &-img
-      width: 26px
-      height: 26px
+      width: 0px
+      height: 0px
+      margin: 13px
       fill: bgc(m-proj-link-zoom)
+      transition: width .2s ease .1s, height .2s ease .1s, margin .2s ease .1s, fill .2s ease-in-out 0s
 
     &:hover &-img
       fill: bgc(m-proj-link-zoom_hov)
 
   &__title
     margin: 30px 0 15px 28px
+    transition: color .35s ease-in .1s
 
   &__tags
-    display: inline-block
+    display: block
     margin: 0 0 27px 30px
+    transition: color .35s ease-in .1s
 
   &:hover
     background-color: bgc(m-proj_hov)
@@ -231,9 +241,15 @@
 
     .project__img
       +prefixes(filter, "brightness(35%)")
+      transition: filter .35s ease-out 0s
 
     .project__btn
-      display: block
+      visibility: visible
+
+      &-img
+        width: 26px
+        height: 26px
+        margin: 0
 
     .project__title
       color: txtc(m-proj-title_hov)
@@ -281,6 +297,7 @@
 
     &:hover &-img
       fill: bgc(m-vid-btn-play_hov)
+      transition: fill .35s ease-in-out 0s
 
 
   &__title
@@ -336,6 +353,7 @@
         margin-right: 29px
         background: url(../img/svg/adapt-arrow.svg) no-repeat center
         content: ""
+        transition: transform .35s linear 0s, background-image .35s linear 0s
 
     &__text
       padding-left: 50px
@@ -419,6 +437,7 @@
   width: $m-rec-posts-post-w
   margin-right: 27px
   border: $m-rec-posts-post-border
+  transition: background-color .35s ease-out 0s
 
   &::before
     content: "30"
@@ -435,6 +454,7 @@
     color: rgb(255, 255, 255)
     background-color: rgb(54, 54, 54)
     +prefixes(border-radius, "3px 3px 0 0")
+    transition: background-color .2s ease-in-out .05s
 
   &::after
     content: "Sep."
@@ -451,6 +471,7 @@
     color: rgb(255, 255, 255)
     background-color: rgb(37, 37, 37)
     +prefixes(border-radius, "0 0 3px 3px")
+    transition: background-color .15s ease-out .15s
 
   &:nth-child(5)
     margin-right: 0
@@ -462,11 +483,13 @@
   &__title
     margin: 0 30px 25px 30px
     color: txtc(m-rec-posts-post-title)
+    transition: color .35s ease-in 0s
 
   &__text
     margin: 0 30px 30px 30px
     line-height: 1.571
     color: txtc(m-rec-posts-post-txt)
+    transition: color .35s ease-in 0s
 
   &__link
     margin: 0 0 33px 30px
@@ -496,6 +519,7 @@
 
     .post__img
       +prefixes(filter, "brightness(35%)")
+      transition: filter .25s ease-out .1s
 
     .post__title
       color: txtc(m-rec-posts-post-title_hov)
@@ -518,6 +542,7 @@
 
       &-img
         fill: bgc(m-rec-posts-btn)
+        transition: fill .2s ease-in-out 0s
 
       &:hover &-img
         fill: bgc(m-rec-posts-btn_hov)
