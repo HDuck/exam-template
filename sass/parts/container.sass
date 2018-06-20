@@ -1,0 +1,65 @@
+body, html
+  padding: 0
+  margin: 0
+
+.container
+  width: 100%
+  background-color: bgc(main)
+
+.logo-link
+  display: flex
+  justify-content: flex-start
+  align-items: center
+  font: #{34px/1.2} "Raleway_R", sans-serif
+  text-decoration: none
+  color: txtc(h-text)
+
+  &__img
+   fill: bgc(logo)
+
+.page
+
+  &-title_size1
+    font: #{52px/1.2} "Raleway_EB", sans-serif
+    font-weight: bold
+    color: txtc(title-s1)
+
+  &-title_size2
+    font: #{30px/1.2} "Raleway_B", sans-serif
+    font-weight: bold
+    color: txtc(title-s2)
+
+  &-title_size3
+    font: #{20px/1.2} "Raleway_M", sans-serif
+    color: txtc(title-s3)
+
+  &-text_main
+    font: #{16px/1.75} "Montserrat_L", sans-serif
+    color: txtc(text-main)
+
+  &-text_sub
+    font: #{14px/1.2} "Montserrat_L", sans-serif
+    color: txtc(text-sub)
+
+  &-btn_style
+    display: block
+    padding: 21px 39px 21px 37px
+    font: #{14px/1.643} "Raleway_EB", sans-serif
+    font-weight: bold
+    text-transform: uppercase
+    text-decoration: none
+    color: txtc(h-text)
+    background-color: bgc(btn)
+    +prefixes(border-radius, "3px")
+    +prefixes(box-shadow, "inset 0px -3px 0px 0px rgb(115, 99, 87)")
+    border: none
+    cursor: pointer
+    outline: none
+    +prefixes(transition, "background-color .2s ease-out 0s")
+
+    &:hover
+      background-color: bgc(btn_hov)
+
+    &:active
+      +prefixes(box-shadow, "0px -3px 0px 0px rgb(153, 134, 117)")
+      transform: translateY(3px)
