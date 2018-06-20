@@ -40,15 +40,15 @@
       text-transform: capitalize
       text-decoration: none
       color: txtc(h-menu-link)
-      transition: color .1s ease-in-out 0s
+      +prefixes(transition, "color .1s ease-in-out 0s")
 
       &:hover
         color: txtc(h-menu-link_hov)
 
   &-cart, &-search
     display: inline-block
-    height: 24px
     margin-top: 15px
+    height: 24px
     
   &-cart
     width: 18px
@@ -58,16 +58,58 @@
       fill: bgc(cart_search)
 
   &-search
-    width: 24px
+    position: relative
     margin-left: 28px
-    padding: 0
-    background: none
-    border: none
-    cursor: pointer
-    outline: none
+    margin-top: 15px
 
-    &__img
-      fill: bgc(cart_search)
+    &__label
+      position: absolute
+      top: -1px
+      left: -1px
+      z-index: 3
+      width: 37px
+      height: 30px
+      cursor: pointer
+
+    &__input
+      position: absolute
+      top: -4px
+      left: 0px
+      width: 100px
+      height: 0px
+      margin-top: 17px
+      padding: 0
+      font: #{14px/1.2} "Montserrat_L", sans-serif
+      background: transparent
+      border: none
+      outline: none
+      +prefixes(transition, "width .25s 0s, height .25s 0s, margin-top .25s 0s, padding .25s 0s, transform .25s 0s, background-color .35s 0s")
+
+      &:focus
+        width: 225px
+        height: 34px
+        margin-top: 0
+        padding: 5px 40px 0px 5px
+        z-index: 0
+        background-color: rgb(255, 255, 255)
+        transform: translateX(-185px)
+
+    &__btn
+      position: relative
+      z-index: 2
+      border: none
+      background: none
+      outline: none
+      cursor: pointer
+
+      &-svg
+        fill: bgc(cart_search)
+
+    &:focus-within &__label
+      z-index: -1
+
+    &:focus-within &__btn-svg
+      fill: bgc(cart_search_hov)
 
 .carousel
 
@@ -84,6 +126,7 @@
     &::after
       content: ""
       position: absolute
+      z-index: 2
       top: 10px
       left: 10px
       width: 52px
@@ -91,7 +134,7 @@
       border-top: 2px solid rgb(163, 162, 160)
       border-right: 2px solid rgb(163, 162, 160)
       transform: rotate(225deg)
-      transition: border-top .15s ease-in-out 0s, border-right .15s ease-in-out 0s 
+      +prefixes(transition, "border-top .15s ease-in-out 0s, border-right .15s ease-in-out 0s")
 
     &:hover::after
       border-top: 2px solid rgb(229, 196, 175)
@@ -110,6 +153,7 @@
       border-top: 2px solid rgb(163, 162, 160)
       border-right: 2px solid rgb(163, 162, 160)
       transform: rotate(45deg)
+      +prefixes(transition, "border-top .15s ease-in-out 0s, border-right .15s ease-in-out 0s")
 
     &:hover::after
       border-top: 2px solid rgb(229, 196, 175)

@@ -69,13 +69,13 @@
     &__date
       font: #{12px/1.667} "Montserrat_L", sans-serif
       color: txtc(f-top-date)
-      transition: color .2s ease-out 0s
+      +prefixes(transition, "color .2s ease-out 0s")
 
     &__text
       margin: 15px 0 0
       line-height: 1.429
       color: txtc(f-txt)
-      transition: color .3s ease-out 0s
+      +prefixes(transition, "color .3s ease-out 0s")
 
     &:hover
 
@@ -144,7 +144,7 @@
     text-transform: capitalize
     text-decoration: none
     color: txtc(f-txt)
-    transition: color .2s ease-in-out 0s
+    +prefixes(transition, "color .2s ease-in-out 0s")
 
     &:hover
       color: txtc(f-bot-link-item)

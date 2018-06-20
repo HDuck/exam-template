@@ -34,11 +34,20 @@
             <use xlink:href="#icon-cart"></use>
           </svg>
         </a>
-        <button class="nav-search">
+        <form class="nav-search" action="#">
+          <label class="nav-search__label" for="search"></label>
+          <input class="nav-search__input" id="search" type="search" placeholder="Search...">
+          <button class="nav-search__btn">
+            <svg class="nav-search__btn-svg" width="24" height="24">
+              <use xlink:href="#icon-search"></use>
+            </svg>
+          </button>
+        </form>
+<!--        <button class="nav-search">
           <svg class="nav-search__img" width="24" height="24">
             <use xlink:href="#icon-search"></use>
           </svg>
-        </button>
+        </button>-->
       </nav>
       <div class="header-carousel">
         <a class="carousel-btn_left" href="#"></a>
