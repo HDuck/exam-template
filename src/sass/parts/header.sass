@@ -64,35 +64,38 @@
 
     &__label
       position: absolute
-      top: -1px
-      left: -1px
       z-index: 3
-      width: 37px
-      height: 30px
+      display: flex
+      justify-content: center
+      align-items: flex-start
+      padding-top: 1px
+      width: 36px
+      height: 28px
       cursor: pointer
+
+      &-svg
+        opacity: 0
+        +prefixes(transition, "opacity .25s 0s")
 
     &__input
       position: absolute
-      top: -4px
-      left: 0px
-      width: 100px
+      top: 13px
+      left: -185px
+      width: 225px
       height: 0px
-      margin-top: 17px
       padding: 0
       font: #{14px/1.2} "Montserrat_L", sans-serif
       background: transparent
       border: none
       outline: none
-      +prefixes(transition, "width .25s 0s, height .25s 0s, margin-top .25s 0s, padding .25s 0s, transform .25s 0s, background-color .35s 0s")
+      +prefixes(transition, "height .25s 0s, padding .25s 0s, transform .25s 0s, background-color .35s 0s")
 
       &:focus
-        width: 225px
         height: 34px
-        margin-top: 0
         padding: 5px 40px 0px 5px
         z-index: 0
         background-color: rgb(255, 255, 255)
-        transform: translateX(-185px)
+        transform: translateY(18px)
 
     &__btn
       position: relative
@@ -101,12 +104,19 @@
       background: none
       outline: none
       cursor: pointer
+      +prefixes(transition, "transform .25s 0s")
+
+      &:focus
+        transform: translateY(-35xp)
 
       &-svg
         fill: bgc(cart_search)
 
-    &:focus-within &__label
-      z-index: -1
+    &:focus-within &__label-svg
+      opacity: .2
+
+    &:focus-within &__btn
+      transform: translateY(35px)
 
     &:focus-within &__btn-svg
       fill: bgc(cart_search_hov)

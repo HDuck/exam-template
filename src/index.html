@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Waxom</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
   <svg xmlns="http://www.w3.org/2000/svg" display="none">
@@ -35,7 +35,11 @@
           </svg>
         </a>
         <form class="nav-search" action="#">
-          <label class="nav-search__label" for="search"></label>
+          <label class="nav-search__label" for="search">
+            <svg class="nav-search__label-svg" width="24" height="24">
+              <use xlink:href="#icon-search"></use>
+            </svg>
+          </label>
           <input class="nav-search__input" id="search" type="search" placeholder="Search...">
           <button class="nav-search__btn">
             <svg class="nav-search__btn-svg" width="24" height="24">
@@ -43,11 +47,6 @@
             </svg>
           </button>
         </form>
-<!--        <button class="nav-search">
-          <svg class="nav-search__img" width="24" height="24">
-            <use xlink:href="#icon-search"></use>
-          </svg>
-        </button>-->
       </nav>
       <div class="header-carousel">
         <a class="carousel-btn_left" href="#"></a>

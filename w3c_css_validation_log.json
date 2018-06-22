@@ -1,0 +1,1968 @@
+{
+  "release/css/style.min.css": {
+    "errors": [
+      {
+        "line": "1",
+        "errorType": "parse-error",
+        "context": ".logo-link__img",
+        "errorSubtype": "exp",
+        "skippedString": "#fff",
+        "type": "noexistence-at-all",
+        "message": "Property “fill” doesn't exist :",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "errorType": "parse-error",
+        "context": ".nav-cart__img",
+        "errorSubtype": "exp",
+        "skippedString": "#fff",
+        "type": "noexistence-at-all",
+        "message": "Property “fill” doesn't exist :",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "errorType": "parse-error",
+        "context": ".nav-search__btn:focus",
+        "errorSubtype": "skippedString",
+        "skippedString": "35xp",
+        "type": "generator.unrecognize",
+        "message": "Unknown dimension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "errorType": "parse-error",
+        "context": ".nav-search__btn:focus",
+        "errorSubtype": "exp",
+        "skippedString": "translateY()",
+        "type": "few-value",
+        "message": "too few values for the property “transform” :",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "errorType": "parse-error",
+        "context": ".nav-search__btn-svg",
+        "errorSubtype": "exp",
+        "skippedString": "#fff",
+        "type": "noexistence-at-all",
+        "message": "Property “fill” doesn't exist :",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "errorType": "invalidparam",
+        "message": "Unknown pseudo-element or pseudo-class “:focus-within”",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "errorType": "invalidparam",
+        "message": "Unknown pseudo-element or pseudo-class “:focus-within”",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "errorType": "invalidparam",
+        "message": "Unknown pseudo-element or pseudo-class “:focus-within”",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "errorType": "parse-error",
+        "context": ".nav-search .nav-search__btn-svg",
+        "errorSubtype": "exp",
+        "skippedString": "#c7b299",
+        "type": "noexistence-at-all",
+        "message": "Property “fill” doesn't exist :",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "errorType": "parse-error",
+        "context": ".carousel-nav__link-img",
+        "errorSubtype": "exp",
+        "skippedString": "#8e8f90",
+        "type": "noexistence-at-all",
+        "message": "Property “fill” doesn't exist :",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "errorType": "parse-error",
+        "context": ".carousel-nav__link:hover .carousel-nav__link-img",
+        "errorSubtype": "exp",
+        "skippedString": "#d3c1ad",
+        "type": "noexistence-at-all",
+        "message": "Property “stroke” doesn't exist :",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "errorType": "parse-error",
+        "context": ".carousel-nav__link:hover .carousel-nav__link-img",
+        "errorSubtype": "exp",
+        "skippedString": "2px",
+        "type": "noexistence-at-all",
+        "message": "Property “stroke-width” doesn't exist :",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "errorType": "parse-error",
+        "context": ".carousel-nav__link:hover .carousel-nav__link-img",
+        "errorSubtype": "exp",
+        "skippedString": "none",
+        "type": "noexistence-at-all",
+        "message": "Property “fill” doesn't exist :",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "errorType": "parse-error",
+        "context": ".services__img",
+        "errorSubtype": "exp",
+        "skippedString": "#555",
+        "type": "noexistence-at-all",
+        "message": "Property “fill” doesn't exist :",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "errorType": "parse-error",
+        "context": ".services__item:hover .services__img",
+        "errorSubtype": "exp",
+        "skippedString": "#c7b299",
+        "type": "noexistence-at-all",
+        "message": "Property “fill” doesn't exist :",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "errorType": "parse-error",
+        "context": ".project__btn-img",
+        "errorSubtype": "exp",
+        "skippedString": "#fff",
+        "type": "noexistence-at-all",
+        "message": "Property “fill” doesn't exist :",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "errorType": "parse-error",
+        "context": ".project__btn:hover .project__btn-img",
+        "errorSubtype": "exp",
+        "skippedString": "#998675",
+        "type": "noexistence-at-all",
+        "message": "Property “fill” doesn't exist :",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "errorType": "parse-error",
+        "context": ".video-pres__btn-img",
+        "errorSubtype": "exp",
+        "skippedString": "#fff",
+        "type": "noexistence-at-all",
+        "message": "Property “fill” doesn't exist :",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "errorType": "parse-error",
+        "context": ".video-pres__btn:hover .video-pres__btn-img",
+        "errorSubtype": "exp",
+        "skippedString": "#998675",
+        "type": "noexistence-at-all",
+        "message": "Property “fill” doesn't exist :",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "errorType": "parse-error",
+        "context": ".achievement__img",
+        "errorSubtype": "exp",
+        "skippedString": "#c7b299",
+        "type": "noexistence-at-all",
+        "message": "Property “fill” doesn't exist :",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "errorType": "parse-error",
+        "context": ".post-carousel__btn-img",
+        "errorSubtype": "exp",
+        "skippedString": "#cacaca",
+        "type": "noexistence-at-all",
+        "message": "Property “fill” doesn't exist :",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "errorType": "parse-error",
+        "context": ".post-carousel__btn:hover .post-carousel__btn-img",
+        "errorSubtype": "exp",
+        "skippedString": "#c7b299",
+        "type": "noexistence-at-all",
+        "message": "Property “fill” doesn't exist :",
+        "uri": "file://localhost/TextArea"
+      }
+    ],
+    "warnings": [
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-border-radius” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-border-radius” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-border-radius” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-border-radius” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-box-shadow” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-box-shadow” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-box-shadow” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-box-shadow” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-box-shadow” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-box-shadow” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-box-shadow” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-box-shadow” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "Property “fill” does not exist",
+        "type": "noexproperty",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-linear-gradient(0deg,#211b19 0,#4e3427 100%)” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-linear-gradient(0deg,#211b19 0,#4e3427 100%)” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-linear-gradient(0deg,#211b19 0,#4e3427 100%)” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-linear-gradient(0deg,#211b19 0,#4e3427 100%)” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-border-radius” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-border-radius” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-border-radius” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-border-radius” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "Property “fill” does not exist",
+        "type": "noexproperty",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-filter” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-filter” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-filter” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-filter” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-border-radius” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-border-radius” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-border-radius” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-border-radius” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "Property “fill” does not exist",
+        "type": "noexproperty",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“::-webkit-details-marker” is an unknown vendor extended pseudo-element",
+        "type": "vendor-ext-pseudo-element",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-linear-gradient(0deg,#211b19 0,#4e3427 100%)” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-linear-gradient(0deg,#211b19 0,#4e3427 100%)” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-linear-gradient(0deg,#211b19 0,#4e3427 100%)” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-linear-gradient(0deg,#211b19 0,#4e3427 100%)” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-border-radius” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-border-radius” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-border-radius” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-border-radius” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-border-radius” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-border-radius” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-border-radius” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-border-radius” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-filter” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-filter” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-filter” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-filter” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "Property “fill” does not exist",
+        "type": "noexproperty",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “font-family”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “src”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “font-family”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “src”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “font-family”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “src”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “font-family”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “src”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “font-family”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “src”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “font-family”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “src”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “font-family”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “src”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “font-family”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “src”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “margin-top”",
+        "context": ".nav-search",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “margin-bottom”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “margin-left”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “margin-top”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “margin-right”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “color”",
+        "context": ".comp-desc__link",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "0",
+        "level": "2",
+        "message": "Redefinition of “border-bottom-width”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "0",
+        "level": "2",
+        "message": "Redefinition of “border-bottom-color”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "0",
+        "level": "2",
+        "message": "Redefinition of “border-bottom-style”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      }
+    ]
+  }
+}
