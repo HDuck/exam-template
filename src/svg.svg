@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg">
-    <defs>
-        <style>.cls-1{fill:#333;fill-rule:evenodd;}</style>
-    </defs>
-    <symbol id="1" viewBox="0 0 24 32">
-        <title>2</title>
-        <path class="cls-1" d="M50,66S38,52.63,38,46a12,12,0,0,1,24,0C62,52.63,50,66,50,66Zm0-16a4,4,0,1,1,4-4A4,4,0,0,1,50,50Z" transform="translate(-38 -34)"/>
-    </symbol>
-</svg>
