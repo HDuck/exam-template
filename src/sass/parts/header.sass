@@ -1,10 +1,99 @@
+#slide2, #slide3, #slide4, #slide5
+  opacity: 0
+  filter: brightness(40%)
+  transition: opacity 1s 0s
+
+  &:target ~ #slide1
+    opacity: 0
+
+  &:target
+    opacity: 1
+
+  &:target ~ .carousel-nav > .carousel-nav__item:first-child .carousel-nav__link-img
+    fill: rgb(142, 143, 144)
+    stroke: none
+
+  &:target ~ .carousel-slide__content
+    visibility: hidden
+
+#slide1
+  background: bgc(head) url(../img/h-slide-photo1_prof.jpg) no-repeat center 0/cover
+  opacity: 1
+  transition: opacity 1s 0s
+
+  &:target
+    opacity: 1
+
+  &:target ~ .carousel-nav > .carousel-nav__item:first-child .carousel-nav__link-img
+    fill: transparent
+    stroke: rgb(142, 143, 144)
+    stroke-width: 2px
+
+  &:target ~ .carousel-slide__content
+    visibility: hidden
+
+  &:target ~ .carousel-slide__content:nth-child(6)
+    z-index: 1
+    visibility: visible
+
+#slide2
+  background: bgc(head) url(../img/h-slide-photo2_orig.jpg) no-repeat center 0/cover
+
+  &:target ~ .carousel-nav > .carousel-nav__item:nth-child(2) .carousel-nav__link-img
+    fill: transparent
+    stroke: rgb(142, 143, 144)
+    stroke-width: 2px
+
+  &:target ~ .carousel-slide__content:nth-child(7)
+    z-index: 1
+    visibility: visible
+
+#slide3
+  background: bgc(head) url(../img/h-slide-photo3_orig.jpg) no-repeat center 0/cover
+
+  &:target ~ .carousel-nav > .carousel-nav__item:nth-child(3) .carousel-nav__link-img
+    fill: transparent
+    stroke: rgb(142, 143, 144)
+    stroke-width: 2px
+
+  &:target ~ .carousel-slide__content:nth-child(8)
+    z-index: 1
+    visibility: visible
+
+#slide4
+  background: bgc(head) url(../img/h-slide-photo4_orig.jpg) no-repeat center 0/cover
+
+  &:target ~ .carousel-nav > .carousel-nav__item:nth-child(4) .carousel-nav__link-img
+    fill: transparent
+    stroke: rgb(142, 143, 144)
+    stroke-width: 2px
+
+  &:target ~ .carousel-slide__content:nth-child(9)
+    z-index: 1
+    visibility: visible
+
+#slide5
+  background: bgc(head) url(../img/h-slide-photo5_orig.jpg) no-repeat center 0/cover
+
+  &:target ~ .carousel-nav > .carousel-nav__item:last-child .carousel-nav__link-img
+    fill: transparent
+    stroke: rgb(142, 143, 144)
+    stroke-width: 2px
+
+  &:target ~ .carousel-slide__content:nth-child(10)
+    z-index: 1
+    visibility: visible
+
 .header
+  position: relative
   width: $page-w
   margin: 0 auto
   padding: 40px 0 0 0
-  background: bgc(head) url(../img/h-slide-photo1_prof.jpg) no-repeat center 0/cover
+  background-color: bgc(head)
 
   &-nav
+    position: relative
+    z-index: 2
     display: flex
     justify-content: center
     align-items: flex-start
@@ -64,7 +153,7 @@
 
     &__label
       position: absolute
-      z-index: 3
+      z-index: 4
       display: flex
       justify-content: center
       align-items: flex-start
@@ -99,7 +188,7 @@
 
     &__btn
       position: relative
-      z-index: 2
+      z-index: 3
       border: none
       background: none
       outline: none
@@ -107,7 +196,7 @@
       +prefixes(transition, "transform .25s 0s")
 
       &:focus
-        transform: translateY(-35xp)
+        transform: translateY(-35px)
 
       &-svg
         fill: bgc(cart_search)
@@ -123,8 +212,32 @@
 
 .carousel
 
+  &-slide__content
+    position: absolute
+    z-index: -1
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    width: 100%
+    visibility: hidden
+
+    &:nth-child(6)
+      visibility: visible
+      z-index: 1
+
+  &__slide_style
+    position: absolute
+    top: 0
+    width: 100%
+    height: 100%
+    z-index: 0
+
+    &:target
+      z-index: 1
+
   &-btn_left, &-btn_right
     position: relative
+    z-index: 2
     display: block
     width: 40px
     height: 73px
@@ -170,6 +283,8 @@
       border-right: 2px solid rgb(229, 196, 175)
 
   &-txt
+    position: relative
+    z-index: 2
     display: flex
     flex-direction: column
     justify-content: flex-start
@@ -195,7 +310,10 @@
       text-transform: uppercase
       box-shadow: inset 0px -3px 0px 0px rgb(115, 99, 87)
 
+
   &-nav
+    position: relative
+    z-index: 2
     display: flex
     justify-content: center
     align-items: flex-end
@@ -204,22 +322,25 @@
     padding-left: 0
 
     &__item
-      margin-left: 6px
-      list-style-type: none
+        margin-left: 6px
+        list-style-type: none
 
-      &:first-child
-        margin-left: 0
+        &:first-child
+          margin-left: 0
+
+        &:first-child > .carousel-nav__link
+          fill: transparent
+          stroke: rgb(142, 143, 144)
+          stroke-width: 2px
 
     &__link
       display: block
       width: 15px
       height: 15px
       text-decoration: none
+      fill: rgb(142, 143, 144)
 
-      &-img
-        fill: rgb(142, 143, 144)
-
-      &:hover &-img
-        stroke: rgb(211, 193, 173)
+      &:hover
+        fill: transparent
+        stroke: rgb(142, 143, 144)
         stroke-width: 2px
-        fill: none

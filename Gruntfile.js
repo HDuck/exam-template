@@ -102,7 +102,8 @@ module.exports = function(grunt) {
       release: {
         options: {
           doctype: 'HTML5',
-          charset: 'utf-8'
+          charset: 'utf-8',
+          relaxerror: 'This document appears to be written in Lorem ipsum text but the “html” start tag has “lang="en"”. Consider using “lang="zxx"” (or variant) instead.'
         },
 
         files: {
@@ -112,9 +113,24 @@ module.exports = function(grunt) {
     },
 
     w3c_css_validation: {
+
       release: {
-        src: ['release/css/*.min.css']
-      }
+        options: {
+          logfile: 'w3cErrors/css/w3c_css_validation(release).json',
+          warning: '2'
+        },
+
+        src: 'release/css/*.min.css'
+      },
+
+      src: {
+        options: {
+          logfile: 'w3cErrors/css/w3c_css_validation(src).json',
+          warning: '2'
+        },
+
+          src: 'src/css/style.css'
+      }      
     },
 
     copy: {
@@ -143,14 +159,14 @@ module.exports = function(grunt) {
     watch: {
       sass: {
         files: ['src/sass/*.sass', 'src/sass/parts/*.sass', 'src/sass/parts/variables.scss'],
-        tasks: ['sass:src', 'cssmin:src']
+        tasks: ['sass:src']
       }
     },
 
     svgstore: {
       default: {
         files: {
-          'src/img/sprites/result.svg': ['src/img/sprites/svg_for_sprite/*.svg']
+          'src/img/sprites/sprite.svg': ['src/img/svg/svg_for_sprite/*.svg']
         }
       }
     }
@@ -169,5 +185,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-w3c-css-validation');
   grunt.loadNpmTasks('grunt-svgstore');
 
-  grunt.registerTask('build', ['clean', 'sass:release', 'cssmin:release', 'htmlmin', 'imagemin','validation', 'w3c_css_validation', 'copy']);
+  grunt.registerTask('build', ['clean', 'sass:release', 'cssmin:release', 'htmlmin', 'imagemin','validation', 'w3c_css_validation:release', 'copy']);
 }
