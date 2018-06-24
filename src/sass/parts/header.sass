@@ -88,7 +88,7 @@
   position: relative
   width: $page-w
   margin: 0 auto
-  padding: 40px 0 0 0
+  padding-top: 40px
   background-color: bgc(head)
 
   &-nav
@@ -108,6 +108,16 @@
     align-content: space-between
 
 .nav
+
+  &-mobile
+
+    &__btn_open, &__btn_close
+      display: none
+
+    &__menu-wrapper
+      display: flex
+      margin: 0
+      padding: 0
 
   &-menu
     display: flex
@@ -149,7 +159,6 @@
   &-search
     position: relative
     margin-left: 28px
-    margin-top: 15px
 
     &__label
       position: absolute
@@ -179,9 +188,12 @@
       outline: none
       +prefixes(transition, "height .25s 0s, padding .25s 0s, transform .25s 0s, background-color .35s 0s")
 
+      &::-webkit-search-cancel-button
+        display: none
+
       &:focus
         height: 34px
-        padding: 5px 40px 0px 5px
+        padding: 5px 40px 5px 5px
         z-index: 0
         background-color: rgb(255, 255, 255)
         transform: translateY(18px)
@@ -194,9 +206,6 @@
       outline: none
       cursor: pointer
       +prefixes(transition, "transform .25s 0s")
-
-      &:focus
-        transform: translateY(-35px)
 
       &-svg
         fill: bgc(cart_search)

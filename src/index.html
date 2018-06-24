@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Waxom</title>
   <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
   <svg xmlns="http://www.w3.org/2000/svg" display="none">
@@ -19,34 +20,44 @@
           </svg>
           <span class="logo-link__name">Waxom</span>
         </a>
-        <ul class="nav-menu">
-          <li class="nav-menu__item"><a class="nav-menu__link" href="#">Home</a></li>
-          <li class="nav-menu__item"><a class="nav-menu__link" href="#">About&nbsp;us</a></li>
-          <li class="nav-menu__item"><a class="nav-menu__link" href="#">Portfolio</a></li>
-          <li class="nav-menu__item"><a class="nav-menu__link" href="#">Features</a></li>
-          <li class="nav-menu__item"><a class="nav-menu__link" href="#">Blog</a></li>
-          <li class="nav-menu__item"><a class="nav-menu__link" href="#">Pricing</a></li>
-          <li class="nav-menu__item"><a class="nav-menu__link" href="#">Shortcodes</a></li>
-          <li class="nav-menu__item"><a class="nav-menu__link" href="#">Contact</a></li>
-        </ul>
-        <a class="nav-cart" href="#">
-          <svg class="nav-cart__img" width="18" height="24">
-            <use xlink:href="#icon-cart"></use>
+        <a class="nav-mobile__btn_open" href="#mobile-menu">
+          <svg xmlns="http://www.w3.org/2000/svg" width="64" height="39">
+            <rect class="rect" x="0" y="0" width="64" height="9" fill="white"/>
+            <rect class="rect" x="0" y="15" width="64" height="9" fill="white"/>
+            <rect class="rect" x="0" y="30" width="64" height="9" fill="white"/>
           </svg>
         </a>
-        <form class="nav-search" action="#">
-          <label class="nav-search__label" for="search">
-            <svg class="nav-search__label-svg" width="24" height="24">
-              <use xlink:href="#icon-search"></use>
+        <div class="nav-mobile__menu-wrapper" id="mobile-menu">
+          <ul class="nav-menu">
+            <li class="nav-menu__item"><a class="nav-menu__link" href="#">Home</a></li>
+            <li class="nav-menu__item"><a class="nav-menu__link" href="#">About&nbsp;us</a></li>
+            <li class="nav-menu__item"><a class="nav-menu__link" href="#">Portfolio</a></li>
+            <li class="nav-menu__item"><a class="nav-menu__link" href="#">Features</a></li>
+            <li class="nav-menu__item"><a class="nav-menu__link" href="#">Blog</a></li>
+            <li class="nav-menu__item"><a class="nav-menu__link" href="#">Pricing</a></li>
+            <li class="nav-menu__item"><a class="nav-menu__link" href="#">Shortcodes</a></li>
+            <li class="nav-menu__item"><a class="nav-menu__link" href="#">Contact</a></li>
+          </ul>
+          <a class="nav-cart" href="#">
+            <svg class="nav-cart__img" width="18" height="24">
+              <use xlink:href="#icon-cart"></use>
             </svg>
-          </label>
-          <input class="nav-search__input" id="search" type="search" placeholder="Search...">
-          <button class="nav-search__btn">
-            <svg class="nav-search__btn-svg" width="24" height="24">
-              <use xlink:href="#icon-search"></use>
-            </svg>
-          </button>
-        </form>
+          </a>
+          <form class="nav-search" action="#">
+            <label class="nav-search__label" for="search">
+              <svg class="nav-search__label-svg" width="24" height="24">
+                <use xlink:href="#icon-search"></use>
+              </svg>
+            </label>
+            <input class="nav-search__input" id="search" type="search" placeholder="Search...">
+            <button class="nav-search__btn">
+              <svg class="nav-search__btn-svg" width="24" height="24">
+                <use xlink:href="#icon-search"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+        <a class="nav-mobile__btn_close" href="#"></a>
       </nav>
       <div class="header-carousel">
         <div id="slide5" class="carousel__slide_style"></div>
