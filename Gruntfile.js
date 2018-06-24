@@ -38,7 +38,7 @@ module.exports = function(grunt) {
     cssmin: {
       release: {
         files: {
-          'release/css/style.min.css': 'src/css/style.min.css'
+          'release/css/style.min.css': 'src/css/style.css'
         }
       },
 
@@ -46,7 +46,7 @@ module.exports = function(grunt) {
         files: [{
           expand: true,
           cwd: 'src/css',
-          src: ['*.css', '!*.css.map'],
+          src: ['*.css', '!*.css.map', '!*.min.css'],
           dest: 'src/css',
           ext: '.min.css'
         }]
