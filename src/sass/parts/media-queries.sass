@@ -50,10 +50,9 @@
         left: 0
         z-index: 1
         display: flex
-        justify-content: center
-        align-items: flex-start
-        flex-wrap: wrap
-        align-content: center
+        flex-direction: column
+        justify-content: flex-start
+        align-items: center
         width: 100%
         height: 0
         padding-top: 136px
@@ -80,26 +79,45 @@
         opacity: 0
         +prefixes(transition, "opacity .35s .55s")
 
-    &-cart, &-search
-      margin: 10px 0 10px
-
     &-cart
-      margin-left: 0
+      margin: 30px 0 10px
+      text-align: center
 
     &-search
-      width: 36px
-      margin-left: 28px
-      +prefixes(transition, "padding-bottom .25s 0s")
+      display: flex
+      justify-content: center
+      align-items: flex-start
+      height: 44px
+      margin: 0 0 10px 0
+      +prefixes(transition, "none")
+
+      &__label
+        display: none
 
       &__input
+        position: relative
+        top: 0
+        left: 0
         width: 344px
+        height: 34px
+        padding: 5px 40px 5px 5px
+        background-color: rgb(255, 255, 255)
+        +prefixes(transition, "none")
 
-      &:focus-within
-        margin-bottom: 0
-        padding-bottom: 60px
+        &:focus
+          transform: none
+
+      &__btn
+        position: absolute
+        top: 3px
+        left: 305px
+        +prefixes(transition, "none")
+
+        &-svg
+          fill: bgc(cart_search_hov)
 
       &:focus-within &__btn
-        transform: translate(119px, 35px)
+        transform: none
 
   #mobile-menu
 
@@ -116,18 +134,153 @@
     &:target > .nav-menu .nav-menu__item
       border-bottom: 1px solid bgc(head)
 
-  .content
+  .services
+    width: 100%
+    padding: 0
+    justify-content: space-around
+    flex-wrap: wrap
+    align-content: center
+
+    &__item
+      margin-top: 30px
+
+  .comp-info
+    display: none
+
+  .promo
+    display: none
+
+  .latest-proj
+    justify-content: center
+    width: 100%
+    padding-left: 0
+    padding-right: 0
+
+    &__text
+      margin: 0 0 40px
+      padding: 0 5%
+
+  .proj-nav
+    display: none
+
+  .project
+    width: 280px
+    margin-right: 0
+
+    &__btn
+
+      &:first-child
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        visibility: visible
+
+      &:first-child &-img
+        display: none
+
+      &:nth-child(2)
+        display: none
+
+    &:nth-child(even)
+      margin-right: 15px
+
+    &:nth-child(odd)
+      background-color: bgc(m-proj_hov)
+
+      &::before
+        border-bottom-color: bgc(m-proj_hov)
+
+      .project__title
+        color: txtc(m-proj-title_hov)
+
+      .project__tags
+        color: txtc(m-proj-tags_hov)
+
+    &:nth-last-child(2)
+      display: none
+
+    &:nth-last-child(3)
+      display: none
+
+    &__img
+      width: 100%
+
+  .video-pres
+    width: 100%
+
+    &__video
+      +prefixes(object-fit, "cover")
+
+    &__desc
+      top: 155px
+      left: 12.5%
+      width: 75%
+
+  .adaptive
+    width: 100%
+    padding: 80px 0
+    background-size: 40% 400px
+    background-position: 8% bottom
+
+    &__title, &__text
+      margin-left: 6.6%
+
+    &-plus
+      margin-left: 45%
+
+      &__title
+        position: relative
+        margin-left: 50px
+        padding-right: 6.6%
+
+        &::before
+          position: absolute
+          top: 20px
+          left: -50px
+          margin: 0
+
+      &__text
+        padding-right: 6.6%
+
+  .comp-achiev
+    justify-content: center
+    flex-wrap: wrap
+    align-content: flex-start
+    width: 100%
+    padding-right: 0
+    padding-left: 0
+
+  .achievement
+    width: 200px
+    margin: 5% auto 0
+
+    &::after
+      display: none
+
+  .recent-posts
+    display: none
+
+  .clients
     display: none
 
   .footer
     display: none
 
-@media (max-width: 363.9px)
-  .nav-search
+@media (max-width: 574.9px)
 
-    &__input
-      width: 207px
-      left: -117px
+  .project:nth-child(even)
+    margin-right: 0
 
-    &:focus-within &__btn
-      transform: translate(50px, 35px)
+@media (max-width: 559.9px)
+
+  .project:nth-last-child(4)
+    display: none
+
+  .latest-proj__btn
+    margin: 10px 40% 0
+
+@media (max-width: 399.9px)
+
+  .achievement
+    width: 150px

@@ -391,14 +391,12 @@
       },
       {
         "line": "1",
-        "errorType": "invalidparam",
-        "message": "Unknown pseudo-element or pseudo-class “:focus-within”",
-        "uri": "file://localhost/TextArea"
-      },
-      {
-        "line": "1",
-        "errorType": "invalidparam",
-        "message": "Unknown pseudo-element or pseudo-class “:focus-within”",
+        "errorType": "parse-error",
+        "context": ".nav-search__btn-svg",
+        "errorSubtype": "exp",
+        "skippedString": "#c7b299",
+        "type": "noexistence-at-all",
+        "message": "Property “fill” doesn't exist :",
         "uri": "file://localhost/TextArea"
       },
       {
@@ -1685,6 +1683,90 @@
       },
       {
         "line": "1",
+        "level": "0",
+        "message": "“-webkit-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-transition” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-object-fit” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-object-fit” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-object-fit” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-object-fit” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
         "level": "2",
         "message": "Redefinition of “font-family”",
         "type": "redefinition",
@@ -2023,6 +2105,22 @@
       {
         "line": "1",
         "level": "2",
+        "message": "Redefinition of “display”",
+        "context": ".nav-search",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “height”",
+        "context": ".nav-search",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
         "message": "Redefinition of “margin-left”",
         "type": "redefinition",
         "uri": "file://localhost/TextArea"
@@ -2037,23 +2135,15 @@
       {
         "line": "1",
         "level": "2",
-        "message": "Redefinition of “margin-left”",
-        "context": ".nav-cart",
+        "message": "Redefinition of “display”",
+        "context": ".nav-search__label",
         "type": "redefinition",
         "uri": "file://localhost/TextArea"
       },
       {
         "line": "1",
         "level": "2",
-        "message": "Redefinition of “margin-left”",
-        "context": ".nav-search",
-        "type": "redefinition",
-        "uri": "file://localhost/TextArea"
-      },
-      {
-        "line": "1",
-        "level": "2",
-        "message": "Redefinition of “width”",
+        "message": "Redefinition of “position”",
         "context": ".nav-search__input",
         "type": "redefinition",
         "uri": "file://localhost/TextArea"
@@ -2061,31 +2151,7 @@
       {
         "line": "1",
         "level": "2",
-        "message": "Redefinition of “margin-bottom”",
-        "context": ".nav-search",
-        "type": "redefinition",
-        "uri": "file://localhost/TextArea"
-      },
-      {
-        "line": "1",
-        "level": "2",
-        "message": "Redefinition of “transform”",
-        "context": ".nav-search .nav-search__btn",
-        "type": "redefinition",
-        "uri": "file://localhost/TextArea"
-      },
-      {
-        "line": "1",
-        "level": "2",
-        "message": "Redefinition of “display”",
-        "context": ".footer",
-        "type": "redefinition",
-        "uri": "file://localhost/TextArea"
-      },
-      {
-        "line": "1",
-        "level": "2",
-        "message": "Redefinition of “width”",
+        "message": "Redefinition of “top”",
         "context": ".nav-search__input",
         "type": "redefinition",
         "uri": "file://localhost/TextArea"
@@ -2101,8 +2167,471 @@
       {
         "line": "1",
         "level": "2",
+        "message": "Redefinition of “width”",
+        "context": ".nav-search__input",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “height”",
+        "context": ".nav-search__input",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “padding-bottom”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “padding-left”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “padding-top”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “padding-right”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “transition”",
+        "context": ".nav-search__input",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “transform”",
+        "context": ".nav-search__input:focus",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “position”",
+        "context": ".nav-search__btn",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “transition”",
+        "context": ".nav-search__btn",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
         "message": "Redefinition of “transform”",
         "context": ".nav-search .nav-search__btn",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “width”",
+        "context": ".services",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “padding-bottom”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “padding-left”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “padding-top”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “padding-right”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “justify-content”",
+        "context": ".services",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “margin-top”",
+        "context": ".services__item",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “display”",
+        "context": ".comp-info",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “display”",
+        "context": ".promo",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “justify-content”",
+        "context": ".latest-proj",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “width”",
+        "context": ".latest-proj",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “padding-left”",
+        "context": ".latest-proj",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “padding-right”",
+        "context": ".latest-proj",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “margin-bottom”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “margin-left”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “margin-top”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “margin-right”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “width”",
+        "context": ".project",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “margin-right”",
+        "context": ".project",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “width”",
+        "context": ".video-pres",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “top”",
+        "context": ".video-pres__desc",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “left”",
+        "context": ".video-pres__desc",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “width”",
+        "context": ".video-pres__desc",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “width”",
+        "context": ".adaptive",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “padding-bottom”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “padding-left”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “padding-top”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “padding-right”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “background-position”",
+        "context": ".adaptive",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “margin-left”",
+        "context": ".adaptive__text",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “margin-left”",
+        "context": ".adaptive__title",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “margin-left”",
+        "context": ".adaptive-plus",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “margin-right”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “justify-content”",
+        "context": ".comp-achiev",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “width”",
+        "context": ".comp-achiev",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “padding-right”",
+        "context": ".comp-achiev",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “padding-left”",
+        "context": ".comp-achiev",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “margin-bottom”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “margin-left”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “margin-top”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “margin-right”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “display”",
+        "context": ".achievement::after",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “display”",
+        "context": ".recent-posts",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “display”",
+        "context": ".clients",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “display”",
+        "context": ".footer",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “margin-right”",
+        "context": ".project:nth-child(even)",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “margin-bottom”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “margin-left”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “margin-top”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “margin-right”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “width”",
+        "context": ".achievement",
         "type": "redefinition",
         "uri": "file://localhost/TextArea"
       },
@@ -2172,204 +2701,8 @@
       {
         "line": "1",
         "level": "2",
-        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
-        "type": "no-background-color",
-        "uri": "file://localhost/TextArea"
-      },
-      {
-        "line": "1",
-        "level": "2",
-        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
-        "type": "no-background-color",
-        "uri": "file://localhost/TextArea"
-      },
-      {
-        "line": "1",
-        "level": "2",
-        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
-        "type": "no-background-color",
-        "uri": "file://localhost/TextArea"
-      },
-      {
-        "line": "1",
-        "level": "2",
-        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
-        "type": "no-color",
-        "uri": "file://localhost/TextArea"
-      },
-      {
-        "line": "1",
-        "level": "2",
-        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
-        "type": "no-background-color",
-        "uri": "file://localhost/TextArea"
-      },
-      {
-        "line": "1",
-        "level": "2",
-        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
-        "type": "no-background-color",
-        "uri": "file://localhost/TextArea"
-      },
-      {
-        "line": "1",
-        "level": "2",
-        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
-        "type": "no-color",
-        "uri": "file://localhost/TextArea"
-      },
-      {
-        "line": "1",
-        "level": "2",
-        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
-        "type": "no-color",
-        "uri": "file://localhost/TextArea"
-      },
-      {
-        "line": "1",
-        "level": "2",
-        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
-        "type": "no-background-color",
-        "uri": "file://localhost/TextArea"
-      },
-      {
-        "line": "1",
-        "level": "2",
-        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
-        "type": "no-background-color",
-        "uri": "file://localhost/TextArea"
-      },
-      {
-        "line": "1",
-        "level": "2",
-        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
-        "type": "no-background-color",
-        "uri": "file://localhost/TextArea"
-      },
-      {
-        "line": "1",
-        "level": "2",
-        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
-        "type": "no-background-color",
-        "uri": "file://localhost/TextArea"
-      },
-      {
-        "line": "1",
-        "level": "2",
-        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
-        "type": "no-background-color",
-        "uri": "file://localhost/TextArea"
-      },
-      {
-        "line": "1",
-        "level": "2",
-        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
-        "type": "no-background-color",
-        "uri": "file://localhost/TextArea"
-      },
-      {
-        "line": "1",
-        "level": "2",
-        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
-        "type": "no-background-color",
-        "uri": "file://localhost/TextArea"
-      },
-      {
-        "line": "1",
-        "level": "2",
-        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
-        "type": "no-background-color",
-        "uri": "file://localhost/TextArea"
-      },
-      {
-        "line": "1",
-        "level": "2",
-        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
-        "type": "no-background-color",
-        "uri": "file://localhost/TextArea"
-      },
-      {
-        "line": "1",
-        "level": "2",
-        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
-        "type": "no-background-color",
-        "uri": "file://localhost/TextArea"
-      },
-      {
-        "line": "1",
-        "level": "2",
-        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
-        "type": "no-color",
-        "uri": "file://localhost/TextArea"
-      },
-      {
-        "line": "1",
-        "level": "2",
-        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
-        "type": "no-color",
-        "uri": "file://localhost/TextArea"
-      },
-      {
-        "line": "1",
-        "level": "2",
-        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
-        "type": "no-color",
-        "uri": "file://localhost/TextArea"
-      },
-      {
-        "line": "1",
-        "level": "2",
-        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
-        "type": "no-background-color",
-        "uri": "file://localhost/TextArea"
-      },
-      {
-        "line": "1",
-        "level": "2",
-        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
-        "type": "no-background-color",
-        "uri": "file://localhost/TextArea"
-      },
-      {
-        "line": "1",
-        "level": "2",
-        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
-        "type": "no-background-color",
-        "uri": "file://localhost/TextArea"
-      },
-      {
-        "line": "1",
-        "level": "2",
-        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
-        "type": "no-color",
-        "uri": "file://localhost/TextArea"
-      },
-      {
-        "line": "1",
-        "level": "2",
-        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
-        "type": "no-color",
-        "uri": "file://localhost/TextArea"
-      },
-      {
-        "line": "1",
-        "level": "2",
-        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
-        "type": "no-color",
-        "uri": "file://localhost/TextArea"
-      },
-      {
-        "line": "1",
-        "level": "2",
-        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
-        "type": "no-background-color",
-        "uri": "file://localhost/TextArea"
-      },
-      {
-        "line": "1",
-        "level": "2",
-        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
-        "type": "no-background-color",
+        "message": "You have some absolute and relative lengths in ‬padding”. This is not a robust style sheet.",
+        "type": "relative-absolute",
         "uri": "file://localhost/TextArea"
       },
       {
@@ -2452,8 +2785,239 @@
       {
         "line": "1",
         "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
         "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
         "type": "no-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+        "type": "no-background-color",
         "uri": "file://localhost/TextArea"
       },
       {
@@ -2600,6 +3164,13 @@
         "line": "0",
         "level": "2",
         "message": "Redefinition of “transition-duration”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "0",
+        "level": "2",
+        "message": "Redefinition of “transition-property”",
         "type": "redefinition",
         "uri": "file://localhost/TextArea"
       },
