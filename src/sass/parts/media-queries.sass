@@ -259,10 +259,66 @@
       display: none
 
   .recent-posts
-    display: none
+    flex-direction: column
+    justify-content: flex-start
+    align-items: center
+    width: 100%
+    padding-right: 0
+    padding-left: 0
+
+    &__text
+      width: 90%
+      padding: 0 5%
+
+  .post
+    width: 60%
+    margin: 0 0 30px
+
+    &__img
+      width: 100%
+
+    &-carousel
+      display: none
+
+    &:nth-last-child(3)
+      background-color: bgc(m-post_hov)
+
+      &::before
+        background-color: rgb(199, 178, 153)
+
+      &::after
+        background-color: rgb(164, 141, 114)
+
+      .post__title
+        color: txtc(m-rec-posts-post-title_hov)
+
+      .post__text
+        color: txtc(m-rec-posts-post-txt_hov)
 
   .clients
-    display: none
+    justify-content: space-around
+    flex-wrap: wrap
+    align-content: flex-start
+    width: 100%
+    padding: 55px 0
+
+    &__link
+      margin: 15px 0 0 15px
+
+      &:first-child > .clients__img
+        height: 64px
+
+      &:nth-child(2) > .clients__img
+        height: 105px
+
+      &:nth-child(3) > .clients__img
+        height: 65px
+
+      &:last-child > .clients__img
+        height: 82px
+
+    &__img
+      width: 105px
 
   .footer
     display: none
