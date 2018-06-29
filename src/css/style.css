@@ -851,6 +851,7 @@ body, html {
   outline: none;
 }
 .video-pres__btn-img {
+  margin: 12.5px;
   fill: white;
 }
 .video-pres__btn:hover .video-pres__btn-img {
