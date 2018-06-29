@@ -1,5 +1,8 @@
 @media (max-width: 605.1px)
 
+  html, body
+    overflow: hidden
+
   .container
     width: 100vw
 
@@ -321,8 +324,46 @@
       width: 105px
 
   .footer
+    width: 100%
+
+    &-logo_pos
+      margin-right: 3%
+
+    &-top
+      width: 100%
+      padding: 40px 0
+
+    &-bot
+      width: 100%
+      padding: 40px 0
+      flex-wrap: wrap
+      justify-content: center
+      align-content: flex-start
+
+  .comp-desc
+    flex-direction: row
+    justify-content: space-around
+    align-items: center
+    flex-wrap: wrap
+    align-content: center
+    width: 100%
+
+    &__text
+      width: 350px
+      margin: 0 0 20px
+
+  .foot-recent
     display: none
 
+  .twits
+    display: none
+
+  .widget
+    display: none
+
+  .foot-info:last-child
+    margin-top: 20px
+    
 @media (max-width: 574.9px)
 
   .project:nth-child(even)
