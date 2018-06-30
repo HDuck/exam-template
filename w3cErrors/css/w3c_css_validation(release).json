@@ -3762,13 +3762,6 @@
       {
         "line": "1",
         "level": "2",
-        "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
-        "type": "no-color",
-        "uri": "file://localhost/TextArea"
-      },
-      {
-        "line": "1",
-        "level": "2",
         "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
         "type": "no-background-color",
         "uri": "file://localhost/TextArea"
