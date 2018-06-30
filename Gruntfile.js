@@ -155,6 +155,13 @@ module.exports = function(grunt) {
         dest: 'release/js'
       },
 
+      vid2release: {
+        expand: true,
+        cwd: 'src/video',
+        src: '*.mp4',
+        dest: 'release/video'
+      },
+
       docs: {
         expand: true,
         cwd: 'release',
