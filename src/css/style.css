@@ -1343,6 +1343,10 @@ body, html {
 }
 
 @media (max-width: 605.1px) {
+  html, body {
+    overflow: hidden;
+  }
+
   .container {
     width: 100vw;
   }
