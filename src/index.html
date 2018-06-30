@@ -299,9 +299,11 @@
         <button class="latest-proj__btn page-btn_style">Load&nbsp;more</button>
       </section>
       <section class="video-pres">
-        <video class="video-pres__video" src="#" poster="img/m-video-bg.jpg"></video>
-        <div class="video-pres__desc">
-          <button class="video-pres__btn">
+        <video class="video-pres__video" id="video-player" src="video/video-pres.mp4" type="video/mp4" poster="img/m-video-bg.jpg">
+          Your browser doesn't supports this video
+        </video>
+        <div class="video-pres__desc" id="video-desc">
+          <button class="video-pres__btn" id="video-player-btn">
             <svg class="video-pres__btn-img" width="75" height="75">
               <use xlink:href="#vid-play-btn"></use>
             </svg>
@@ -485,5 +487,6 @@
       </div>
     </footer>
   </div>
+  <script src="js/video-btn.js"></script>
 </body>
 </html>

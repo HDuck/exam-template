@@ -269,14 +269,26 @@
 
   &__desc
     position: absolute
-    top: $m-vid-desc-pos-t
-    left: $m-vid-desc-pos-l
+    top: $m-vid-desc-pos-t - 20px
+    left: $m-vid-desc-pos-l - 20px
     display: flex
     flex-direction: column
     justify-content: flex-start
     align-items: center
     width: $m-vid-desc-w
     margin: 0 auto
+    padding: 20px
+    background-color: rgba(0, 0, 0, .1)
+    +prefixes(border-radius, "25px")
+    +prefixes(transition, "opacity 1s 0s")
+
+    &_hidden
+      opacity: 0
+      visibility: hidden
+
+    &_visible
+      opacity: 1
+      visibility: visible
 
   &__btn
     display: flex
