@@ -3166,6 +3166,14 @@
       {
         "line": "1",
         "level": "2",
+        "message": "Redefinition of “border-left”",
+        "context": ".foot-info:first-child .foot-info__item:nth-last-child(2)",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
         "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
         "type": "no-color",
         "uri": "file://localhost/TextArea"
@@ -3741,6 +3749,13 @@
         "line": "0",
         "level": "2",
         "message": "Redefinition of “transition-property”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "0",
+        "level": "2",
+        "message": "Redefinition of “border-left-style”",
         "type": "redefinition",
         "uri": "file://localhost/TextArea"
       },
