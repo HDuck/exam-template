@@ -1,8 +1,5 @@
 @media (max-width: 605.1px)
 
-  html, body
-    overflow: hidden
-
   .container
     width: 100vw
 
@@ -113,7 +110,7 @@
       &__btn
         position: absolute
         top: 3px
-        left: 305px
+        left: 300px
         +prefixes(transition, "none")
 
         &-svg
@@ -416,8 +413,8 @@
   .latest-proj, .adaptive, .comp-achiev, .recent-posts
     padding: 40px 0
 
-  .post__text
-    display: none
+  .post
+    width: 80%
 
 @media (max-width: 405.9px)
 
@@ -448,7 +445,7 @@
     width: 92.5%
 
     &__btn
-      left: 87.5%
+      left: 86%
 
 @media (max-width: 353.9px)
 
@@ -492,4 +489,12 @@
   .comp-desc
 
     &__text, &__link
+      display: none
+
+  .post
+
+    &__img
+      height: 190px
+
+    &__text
       display: none

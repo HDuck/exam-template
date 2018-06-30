@@ -316,12 +316,17 @@ body, html {
   font: 14px/1.2 "Montserrat_L", sans-serif;
   background: transparent;
   border: none;
+  -webkit-border-radius: 17px;
+  -moz-border-radius: 17px;
+  -ms-border-radius: 17px;
+  -o-border-radius: 17px;
+  border-radius: 17px;
   outline: none;
-  -webkit-transition: height .25s 0s, padding .25s 0s, transform .25s 0s, background-color .35s 0s;
-  -moz-transition: height .25s 0s, padding .25s 0s, transform .25s 0s, background-color .35s 0s;
-  -ms-transition: height .25s 0s, padding .25s 0s, transform .25s 0s, background-color .35s 0s;
-  -o-transition: height .25s 0s, padding .25s 0s, transform .25s 0s, background-color .35s 0s;
-  transition: height .25s 0s, padding .25s 0s, transform .25s 0s, background-color .35s 0s;
+  -webkit-transition: height .25s 0s, padding .25s 0s, transform .25s 0s, border-radius .25s .25s, background-color .35s 0s;
+  -moz-transition: height .25s 0s, padding .25s 0s, transform .25s 0s, border-radius .25s .25s, background-color .35s 0s;
+  -ms-transition: height .25s 0s, padding .25s 0s, transform .25s 0s, border-radius .25s .25s, background-color .35s 0s;
+  -o-transition: height .25s 0s, padding .25s 0s, transform .25s 0s, border-radius .25s .25s, background-color .35s 0s;
+  transition: height .25s 0s, padding .25s 0s, transform .25s 0s, border-radius .25s .25s, background-color .35s 0s;
 }
 .nav-search__input::-webkit-search-cancel-button {
   display: none;
@@ -331,6 +336,11 @@ body, html {
   padding: 5px 40px 5px 5px;
   z-index: 0;
   background-color: white;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
   transform: translateY(18px);
 }
 .nav-search__btn {
@@ -1343,10 +1353,6 @@ body, html {
 }
 
 @media (max-width: 605.1px) {
-  html, body {
-    overflow: hidden;
-  }
-
   .container {
     width: 100vw;
   }
@@ -1475,7 +1481,7 @@ body, html {
   .nav-search__btn {
     position: absolute;
     top: 3px;
-    left: 305px;
+    left: 300px;
     -webkit-transition: none;
     -moz-transition: none;
     -ms-transition: none;
@@ -1804,8 +1810,8 @@ body, html {
     padding: 40px 0;
   }
 
-  .post__text {
-    display: none;
+  .post {
+    width: 80%;
   }
 }
 @media (max-width: 405.9px) {
@@ -1833,7 +1839,7 @@ body, html {
     width: 92.5%;
   }
   .nav-search__btn {
-    left: 87.5%;
+    left: 86%;
   }
 }
 @media (max-width: 353.9px) {
@@ -1870,6 +1876,13 @@ body, html {
   }
 
   .comp-desc__text, .comp-desc__link {
+    display: none;
+  }
+
+  .post__img {
+    height: 190px;
+  }
+  .post__text {
     display: none;
   }
 }

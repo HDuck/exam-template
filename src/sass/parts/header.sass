@@ -185,8 +185,9 @@
       font: #{14px/1.2} "Montserrat_L", sans-serif
       background: transparent
       border: none
+      +prefixes(border-radius, "17px")
       outline: none
-      +prefixes(transition, "height .25s 0s, padding .25s 0s, transform .25s 0s, background-color .35s 0s")
+      +prefixes(transition, "height .25s 0s, padding .25s 0s, transform .25s 0s, border-radius .25s .25s, background-color .35s 0s")
 
       &::-webkit-search-cancel-button
         display: none
@@ -196,6 +197,7 @@
         padding: 5px 40px 5px 5px
         z-index: 0
         background-color: rgb(255, 255, 255)
+        +prefixes(border-radius, "8px")
         transform: translateY(18px)
 
     &__btn
