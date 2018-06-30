@@ -858,11 +858,6 @@ body, html {
   opacity: 0;
   visibility: hidden;
 }
-.video-pres__desc_visible {
-  opacity: 1;
-  background-color: rgba(0, 0, 0, 0.5);
-  visibility: visible;
-}
 .video-pres__btn {
   display: flex;
   justify-content: center;
