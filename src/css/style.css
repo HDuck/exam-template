@@ -843,7 +843,6 @@ body, html {
   width: 552px;
   margin: 0 auto;
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.1);
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   -ms-border-radius: 25px;
@@ -861,6 +860,7 @@ body, html {
 }
 .video-pres__desc_visible {
   opacity: 1;
+  background-color: rgba(0, 0, 0, 0.5);
   visibility: visible;
 }
 .video-pres__btn {
