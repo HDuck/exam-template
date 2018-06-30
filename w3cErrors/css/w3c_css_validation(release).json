@@ -588,6 +588,34 @@
       {
         "line": "1",
         "level": "0",
+        "message": "“-webkit-border-radius” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-border-radius” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-border-radius” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-border-radius” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
         "message": "“-webkit-transition” is an unknown vendor extension",
         "type": "vendor-extension",
         "uri": "file://localhost/TextArea"
@@ -618,6 +646,34 @@
         "level": "0",
         "message": "“::-webkit-search-cancel-button” is an unknown vendor extended pseudo-element",
         "type": "vendor-ext-pseudo-element",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-webkit-border-radius” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-moz-border-radius” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-ms-border-radius” is an unknown vendor extension",
+        "type": "vendor-extension",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "0",
+        "message": "“-o-border-radius” is an unknown vendor extension",
+        "type": "vendor-extension",
         "uri": "file://localhost/TextArea"
       },
       {
@@ -3064,6 +3120,14 @@
         "line": "1",
         "level": "2",
         "message": "Redefinition of “padding-right”",
+        "type": "redefinition",
+        "uri": "file://localhost/TextArea"
+      },
+      {
+        "line": "1",
+        "level": "2",
+        "message": "Redefinition of “width”",
+        "context": ".post",
         "type": "redefinition",
         "uri": "file://localhost/TextArea"
       },
