@@ -501,3 +501,15 @@
 
     &__text
       display: none
+
+@media (max-width: 299.9px)
+
+  .foot-info
+
+    &:first-child &__item:nth-last-child(2)
+      border-left: $f-bot-menu-border
+
+    &:first-child &__item:nth-last-child(3)
+      margin-top: 5px
+      padding-left: 14px
+      border-left: none

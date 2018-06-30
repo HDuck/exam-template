@@ -1890,5 +1890,15 @@ body, html {
     display: none;
   }
 }
+@media (max-width: 299.9px) {
+  .foot-info:first-child .foot-info__item:nth-last-child(2) {
+    border-left: 1px solid #555555;
+  }
+  .foot-info:first-child .foot-info__item:nth-last-child(3) {
+    margin-top: 5px;
+    padding-left: 14px;
+    border-left: none;
+  }
+}
 
 /*# sourceMappingURL=src/css/style.css.map */
