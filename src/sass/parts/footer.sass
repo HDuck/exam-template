@@ -108,10 +108,26 @@
     align-content: flex-start
 
   &__img
-    margin: 0 10px 10px 0
+    position: absolute
+    top: 0
+    left: 0
+    +prefixes(transition, "width .25s ease-out 0s, height .25s ease-out 0s, top .25s ease-out 0s, left .25s ease-out 0s")
 
-    &:nth-child(even)
-      margin-right: 0
+    &:hover
+      top: -25px
+      left: -25px
+      z-index: 2
+      width: 180px
+      height: 148px
+
+    &-wrapper
+      position: relative
+      width: 130px
+      height: 98px
+      margin: 0 10px 10px 0
+
+      &:nth-child(even)
+        margin-right: 0
 
 .foot-info
   display: flex

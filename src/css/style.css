@@ -1305,9 +1305,29 @@ body, html {
   align-content: flex-start;
 }
 .widget__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: width .25s ease-out 0s, height .25s ease-out 0s, top .25s ease-out 0s, left .25s ease-out 0s;
+  -moz-transition: width .25s ease-out 0s, height .25s ease-out 0s, top .25s ease-out 0s, left .25s ease-out 0s;
+  -ms-transition: width .25s ease-out 0s, height .25s ease-out 0s, top .25s ease-out 0s, left .25s ease-out 0s;
+  -o-transition: width .25s ease-out 0s, height .25s ease-out 0s, top .25s ease-out 0s, left .25s ease-out 0s;
+  transition: width .25s ease-out 0s, height .25s ease-out 0s, top .25s ease-out 0s, left .25s ease-out 0s;
+}
+.widget__img:hover {
+  top: -25px;
+  left: -25px;
+  z-index: 2;
+  width: 180px;
+  height: 148px;
+}
+.widget__img-wrapper {
+  position: relative;
+  width: 130px;
+  height: 98px;
   margin: 0 10px 10px 0;
 }
-.widget__img:nth-child(even) {
+.widget__img-wrapper:nth-child(even) {
   margin-right: 0;
 }
 
