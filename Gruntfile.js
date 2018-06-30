@@ -148,6 +148,13 @@ module.exports = function(grunt) {
         dest: 'release/fonts'
       },
 
+      js2release: {
+        expand: true,
+        cwd: 'src/js',
+        src: '*.js',
+        dest: 'release/js'
+      },
+
       docs: {
         expand: true,
         cwd: 'release',
